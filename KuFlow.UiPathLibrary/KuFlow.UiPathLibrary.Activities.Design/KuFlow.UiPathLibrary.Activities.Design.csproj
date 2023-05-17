@@ -31,6 +31,12 @@
   <PropertyGroup Condition="'$(Configuration)' == 'Release'">
     <PackageVersion>0.1.0</PackageVersion>
   </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Designers\AppendALogToTheTaskDesigner.xaml" />
+    <None Remove="Designers\KuFlowScopeDesigner.xaml" />
+    <None Remove="Designers\RetrieveProcessDesigner.xaml" />
+    <None Remove="Designers\RetrieveTaskDesigner.xaml" />
+  </ItemGroup>
   <!-- Package Icon -->
   <ItemGroup>
     <None Include="packageIcon.png" Pack="true" Visible="false" PackagePath="" />
@@ -54,6 +60,7 @@
     <DocumentationFile>bin\$(Configuration)\KuFlow.UiPathLibrary.Activities.Design.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
+    <PackageReference Include="KuFlow.Rest" Version="0.0.1-alpha" />
     <PackageReference Include="UiPath.Workflow" Version="6.0.0-20220909-01" PrivateAssets="All" />
     <PackageReference Include="System.Activities.Core.Presentation" Version="6.0.0-*" PrivateAssets="All" />
   </ItemGroup>
@@ -64,6 +71,18 @@
       <SubType>Designer</SubType>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Page>
+    <Page Include="Designers\AppendALogToTheTaskDesigner.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </Page>
+    <Page Include="Designers\KuFlowScopeDesigner.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </Page>
+    <Page Include="Designers\RetrieveProcessDesigner.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </Page>
+    <Page Include="Designers\RetrieveTaskDesigner.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </Page>
     <Page Include="Themes\Icons.xaml">
       <Generator>XamlIntelliSenseFileGenerator</Generator>
       <SubType>Designer</SubType>
@@ -71,10 +90,7 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\KuFlow.UiPathLibrary.Activities\KuFlow.UiPathLibrary.Activities.csproj" PrivateAssets="All"/>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Designers\" />
+    <ProjectReference Include="..\KuFlow.UiPathLibrary.Activities\KuFlow.UiPathLibrary.Activities.csproj" PrivateAssets="All" />
   </ItemGroup>
   <ItemGroup>
     <Compile Update="Properties\Resources.Designer.cs">
