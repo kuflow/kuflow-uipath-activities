@@ -33,9 +33,14 @@
   </PropertyGroup>
   <ItemGroup>
     <None Remove="Designers\AppendALogToTheTaskDesigner.xaml" />
+    <None Remove="Designers\ClaimTaskDesigner.xaml" />
+    <None Remove="Designers\DeleteElementDesigner.xaml" />
+    <None Remove="Designers\DeleteElementDocumentDesigner.xaml" />
     <None Remove="Designers\KuFlowScopeDesigner.xaml" />
     <None Remove="Designers\RetrieveProcessDesigner.xaml" />
     <None Remove="Designers\RetrieveTaskDesigner.xaml" />
+    <None Remove="Designers\SaveElementDesigner.xaml" />
+    <None Remove="Designers\SaveElementDocumentDesigner.xaml" />
   </ItemGroup>
   <!-- Package Icon -->
   <ItemGroup>
@@ -60,7 +65,8 @@
     <DocumentationFile>bin\$(Configuration)\KuFlow.UiPathLibrary.Activities.Design.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="KuFlow.Rest" Version="0.0.1-alpha" />
+    <PackageReference Include="KuFlow.Rest" Version="0.1.0.519113717" />
+    <PackageReference Include="Mime-Detective" Version="22.12.14" />
     <PackageReference Include="UiPath.Workflow" Version="6.0.0-20220909-01" PrivateAssets="All" />
     <PackageReference Include="System.Activities.Core.Presentation" Version="6.0.0-*" PrivateAssets="All" />
   </ItemGroup>
@@ -74,6 +80,15 @@
     <Page Include="Designers\AppendALogToTheTaskDesigner.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </Page>
+    <Page Include="Designers\ClaimTaskDesigner.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </Page>
+    <Page Include="Designers\DeleteElementDesigner.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </Page>
+    <Page Include="Designers\DeleteElementDocumentDesigner.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </Page>
     <Page Include="Designers\KuFlowScopeDesigner.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </Page>
@@ -81,6 +96,12 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </Page>
     <Page Include="Designers\RetrieveTaskDesigner.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </Page>
+    <Page Include="Designers\SaveElementDesigner.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </Page>
+    <Page Include="Designers\SaveElementDocumentDesigner.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </Page>
     <Page Include="Themes\Icons.xaml">

@@ -10,7 +10,7 @@
     <DocumentationFile>bin\$(Configuration)\KuFlow.UiPathLibrary.Activities.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="KuFlow.Rest" Version="0.0.1-alpha" />
+    <PackageReference Include="KuFlow.Rest" Version="0.1.0.519113717" />
     <PackageReference Include="System.Activities.Metadata" Version="6.0.0-*" PrivateAssets="All" />
     <PackageReference Include="UiPath.Workflow.Runtime" Version="6.0.0-20220909-01" PrivateAssets="All" />
   </ItemGroup>

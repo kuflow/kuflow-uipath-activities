@@ -1,6 +1,5 @@
 using System;
 using System.Activities;
-using System.Reflection.Emit;
 using System.Threading;
 using System.Threading.Tasks;
 using KuFlow.Rest;
@@ -11,9 +10,9 @@ using UiPath.Shared.Activities.Utilities;
 
 namespace KuFlow.UiPathLibrary.Activities
 {
-    [LocalizedDisplayName(nameof(Resources.RetrieveTask_DisplayName))]
-    [LocalizedDescription(nameof(Resources.RetrieveTask_Description))]
-    public class RetrieveTask : ContinuableAsyncCodeActivity
+    [LocalizedDisplayName(nameof(Resources.ClaimTask_DisplayName))]
+    [LocalizedDescription(nameof(Resources.ClaimTask_Description))]
+    public class ClaimTask : ContinuableAsyncCodeActivity
     {
         #region Properties
 
@@ -25,23 +24,24 @@ namespace KuFlow.UiPathLibrary.Activities
         [LocalizedDescription(nameof(Resources.ContinueOnError_Description))]
         public override InArgument<bool> ContinueOnError { get; set; }
 
-        [LocalizedDisplayName(nameof(Resources.RetrieveTask_TaskIdentifier_DisplayName))]
-        [LocalizedDescription(nameof(Resources.RetrieveTask_TaskIdentifier_Description))]
+        [LocalizedDisplayName(nameof(Resources.ClaimTask_TaskIdentifier_DisplayName))]
+        [LocalizedDescription(nameof(Resources.ClaimTask_TaskIdentifier_Description))]
         [LocalizedCategory(nameof(Resources.Input_Category))]
         public InArgument<string> TaskIdentifier { get; set; }
 
-        [LocalizedDisplayName(nameof(Resources.RetrieveTask_Task_DisplayName))]
-        [LocalizedDescription(nameof(Resources.RetrieveTask_Task_Description))]
-        [LocalizedCategory(nameof(Resources.Output_Category))]
+        [LocalizedDisplayName(nameof(Resources.ClaimTask_Task_DisplayName))]
+        [LocalizedDescription(nameof(Resources.ClaimTask_Task_Description))]
+        [LocalizedCategory(nameof(Resources.Input_Category))]
         public OutArgument<Rest.Models.Task> Task { get; set; }
+
         #endregion
 
 
         #region Constructors
 
-        public RetrieveTask()
+        public ClaimTask()
         {
-            Constraints.Add(ActivityConstraints.HasParentType<RetrieveTask, KuFlowScope>(string.Format(Resources.ValidationScope_Error, Resources.KuFlowScope_DisplayName)));
+            Constraints.Add(ActivityConstraints.HasParentType<ClaimTask, KuFlowScope>(string.Format(Resources.ValidationScope_Error, Resources.KuFlowScope_DisplayName)));
         }
 
         #endregion
@@ -67,7 +67,7 @@ namespace KuFlow.UiPathLibrary.Activities
             var client = objectContainer.Get<KuFlowRestClient>();
 
             var taskId = new Guid(taskIdentifier);
-            var taskResponse = client.TaskClient.RetrieveTask(taskId);
+            var taskResponse = client.TaskClient.ActionsTaskClaim(taskId);
             var task = taskResponse.Value;
 
             // Outputs

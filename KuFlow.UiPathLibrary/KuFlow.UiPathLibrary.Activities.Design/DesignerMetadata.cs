@@ -14,8 +14,9 @@ namespace KuFlow.UiPathLibrary.Activities.Design
             builder.ValidateTable();
 
             var categoryAttribute = new CategoryAttribute($"{Resources.Category}");
+            var scopeCategoryAttribute = new CategoryAttribute($"{Resources.ScopeCategory}");
 
-            builder.AddCustomAttributes(typeof(KuFlowScope), categoryAttribute);
+            builder.AddCustomAttributes(typeof(KuFlowScope), scopeCategoryAttribute);
             builder.AddCustomAttributes(typeof(KuFlowScope), new DesignerAttribute(typeof(KuFlowScopeDesigner)));
             builder.AddCustomAttributes(typeof(KuFlowScope), new HelpKeywordAttribute(""));
 
@@ -30,6 +31,26 @@ namespace KuFlow.UiPathLibrary.Activities.Design
             builder.AddCustomAttributes(typeof(RetrieveProcess), categoryAttribute);
             builder.AddCustomAttributes(typeof(RetrieveProcess), new DesignerAttribute(typeof(RetrieveProcessDesigner)));
             builder.AddCustomAttributes(typeof(RetrieveProcess), new HelpKeywordAttribute(""));
+
+            builder.AddCustomAttributes(typeof(ClaimTask), categoryAttribute);
+            builder.AddCustomAttributes(typeof(ClaimTask), new DesignerAttribute(typeof(ClaimTaskDesigner)));
+            builder.AddCustomAttributes(typeof(ClaimTask), new HelpKeywordAttribute(""));
+
+            builder.AddCustomAttributes(typeof(SaveElement), categoryAttribute);
+            builder.AddCustomAttributes(typeof(SaveElement), new DesignerAttribute(typeof(SaveElementDesigner)));
+            builder.AddCustomAttributes(typeof(SaveElement), new HelpKeywordAttribute(""));
+
+            builder.AddCustomAttributes(typeof(SaveElementDocument), categoryAttribute);
+            builder.AddCustomAttributes(typeof(SaveElementDocument), new DesignerAttribute(typeof(SaveElementDocumentDesigner)));
+            builder.AddCustomAttributes(typeof(SaveElementDocument), new HelpKeywordAttribute(""));
+
+            builder.AddCustomAttributes(typeof(DeleteElement), categoryAttribute);
+            builder.AddCustomAttributes(typeof(DeleteElement), new DesignerAttribute(typeof(DeleteElementDesigner)));
+            builder.AddCustomAttributes(typeof(DeleteElement), new HelpKeywordAttribute(""));
+
+            builder.AddCustomAttributes(typeof(DeleteElementDocument), categoryAttribute);
+            builder.AddCustomAttributes(typeof(DeleteElementDocument), new DesignerAttribute(typeof(DeleteElementDocumentDesigner)));
+            builder.AddCustomAttributes(typeof(DeleteElementDocument), new HelpKeywordAttribute(""));
 
 
             MetadataStore.AddAttributeTable(builder.CreateTable());

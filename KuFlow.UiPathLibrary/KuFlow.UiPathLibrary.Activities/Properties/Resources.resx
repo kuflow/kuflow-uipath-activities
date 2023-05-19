@@ -257,44 +257,8 @@
     <value>Task Identifier</value>
     <comment>property name</comment>
   </data>
-  <data name="Authentication_Category" xml:space="preserve">
-    <value>Authentication</value>
-    <comment>category</comment>
-  </data>
-  <data name="Common_Category" xml:space="preserve">
-    <value>Common</value>
-    <comment>category</comment>
-  </data>
-  <data name="Input_Category" xml:space="preserve">
-    <value>Input</value>
-    <comment>category</comment>
-  </data>
-  <data name="Output_Category" xml:space="preserve">
-    <value>Output</value>
-    <comment>category</comment>
-  </data>
-  <data name="Options_Category" xml:space="preserve">
-    <value>Options</value>
-    <comment>category</comment>
-  </data>
-  <data name="ValidationScope_Error" xml:space="preserve">
-    <value>Cannot be used outside of a {0}.</value>
-    <comment>error message; {0} is a container activity (e.g. a scope)</comment>
-  </data>
-  <data name="ValidationValue_Error" xml:space="preserve">
-    <value>Please provide a value for {0}.</value>
-    <comment>error message; {0} is the name of a missing property</comment>
-  </data>
-  <data name="ValidationExclusiveProperties_Error" xml:space="preserve">
-    <value>Please provide a value either for {0} or {1}, but not both.</value>
-    <comment>error message; {0} &amp; {1} are mutually exclusive activities</comment>
-  </data>
-  <data name="ValidationOverloadGroup_Error" xml:space="preserve">
-    <value>Please provide values for both {0} and {1}.</value>
-    <comment>error message; {0} &amp; {1} are complementary properties</comment>
-  </data>
   <data name="RetrieveProcess_DisplayName" xml:space="preserve">
-    <value>Retrieve Process</value>
+    <value>Retrieve process</value>
     <comment>activity name</comment>
   </data>
   <data name="RetrieveProcess_Description" xml:space="preserve">
@@ -309,10 +273,6 @@
     <value>Identifier of the process to retrieve</value>
     <comment>property description</comment>
   </data>
-  <data name="Input_Category" xml:space="preserve">
-    <value>Input</value>
-    <comment>category</comment>
-  </data>
   <data name="RetrieveProcess_Process_DisplayName" xml:space="preserve">
     <value>Process</value>
     <comment>property name</comment>
@@ -321,8 +281,196 @@
     <value>Process resource</value>
     <comment>property description</comment>
   </data>
-  <data name="Output_Category" xml:space="preserve">
-    <value>Output</value>
-    <comment>category</comment>
+  <data name="ClaimTask_DisplayName" xml:space="preserve">
+    <value>Claim task</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="ClaimTask_Description" xml:space="preserve">
+    <value>Allow to claim a task</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="ClaimTask_TaskIdentifier_DisplayName" xml:space="preserve">
+    <value>Task Identifier</value>
+    <comment>property name</comment>
+  </data>
+  <data name="ClaimTask_TaskIdentifier_Description" xml:space="preserve">
+    <value>Identifier of the task to claim</value>
+    <comment>property description</comment>
+  </data>
+  <data name="ClaimTask_Task_DisplayName" xml:space="preserve">
+    <value>Task</value>
+    <comment>property name</comment>
+  </data>
+  <data name="ClaimTask_Task_Description" xml:space="preserve">
+    <value>Task resource</value>
+    <comment>property description</comment>
+  </data>
+  <data name="SaveElement_DisplayName" xml:space="preserve">
+    <value>Save element</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="SaveElement_Description" xml:space="preserve">
+    <value>Allow to save an element i.e., a field, a decision, a form, a principal or document (a reference).</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="SaveElement_TaskIdentifier_DisplayName" xml:space="preserve">
+    <value>Task Identifier</value>
+    <comment>property name</comment>
+  </data>
+  <data name="SaveElement_TaskIdentifier_Description" xml:space="preserve">
+    <value>Identifier of the task</value>
+    <comment>property description</comment>
+  </data>
+  <data name="SaveElement_Code_DisplayName" xml:space="preserve">
+    <value>Code</value>
+    <comment>property name</comment>
+  </data>
+  <data name="SaveElement_Code_Description" xml:space="preserve">
+    <value>Element definition code</value>
+    <comment>property description</comment>
+  </data>
+  <data name="SaveElement_Value_DisplayName" xml:space="preserve">
+    <value>Value</value>
+    <comment>property name</comment>
+  </data>
+  <data name="SaveElement_Value_Description" xml:space="preserve">
+    <value>Value to set</value>
+    <comment>property description</comment>
+  </data>
+  <data name="SaveElement_Valid_DisplayName" xml:space="preserve">
+    <value>Valid</value>
+    <comment>property name</comment>
+  </data>
+  <data name="SaveElement_Valid_Description" xml:space="preserve">
+    <value>Mark element as valid/invalid. Default is valid.</value>
+    <comment>property description</comment>
+  </data>
+  <data name="SaveElement_Task_Description" xml:space="preserve">
+    <value>Value to set</value>
+    <comment>property description</comment>
+  </data>
+  <data name="SaveElement_Task_DisplayName" xml:space="preserve">
+    <value>Value</value>
+    <comment>property name</comment>
+  </data>
+  <data name="SaveElementDocument_DisplayName" xml:space="preserve">
+    <value>Save element document</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="SaveElementDocument_Description" xml:space="preserve">
+    <value>Save a element of type document</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="SaveElementDocument_TaskIdentifier_DisplayName" xml:space="preserve">
+    <value>Task Identifier</value>
+    <comment>property name</comment>
+  </data>
+  <data name="SaveElementDocument_TaskIdentifier_Description" xml:space="preserve">
+    <value>Identifier of the task</value>
+    <comment>property description</comment>
+  </data>
+  <data name="SaveElementDocument_Code_DisplayName" xml:space="preserve">
+    <value>Code</value>
+    <comment>property name</comment>
+  </data>
+  <data name="SaveElementDocument_Code_Description" xml:space="preserve">
+    <value>Element definition code</value>
+    <comment>property description</comment>
+  </data>
+  <data name="SaveElementDocument_FilePath_DisplayName" xml:space="preserve">
+    <value>File Path</value>
+    <comment>property name</comment>
+  </data>
+  <data name="SaveElementDocument_FilePath_Description" xml:space="preserve">
+    <value>A file path to upload in a file system</value>
+    <comment>property description</comment>
+  </data>
+  <data name="SaveElementDocument_Task_DisplayName" xml:space="preserve">
+    <value>Task</value>
+    <comment>property name</comment>
+  </data>
+  <data name="SaveElementDocument_Task_Description" xml:space="preserve">
+    <value>Task resource</value>
+    <comment>property description</comment>
+  </data>
+  <data name="SaveElementDocument_Id_DisplayName" xml:space="preserve">
+    <value>Id</value>
+    <comment>property name</comment>
+  </data>
+  <data name="SaveElementDocument_Valid_DisplayName" xml:space="preserve">
+    <value>Valid</value>
+    <comment>property name</comment>
+  </data>
+  <data name="SaveElementDocument_Id_Description" xml:space="preserve">
+    <value>UUID to identify a document. Leave blanck to generate one.</value>
+    <comment>property description</comment>
+  </data>
+  <data name="SaveElementDocument_Valid_Description" xml:space="preserve">
+    <value>Mark document as valid/invalid. Default is valid.</value>
+    <comment>property description</comment>
+  </data>
+  <data name="DeleteElement_DisplayName" xml:space="preserve">
+    <value>Delete element</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="DeleteElement_Description" xml:space="preserve">
+    <value>Delete an element by code</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="DeleteElement_TaskIdentifier_DisplayName" xml:space="preserve">
+    <value>Task Identifier</value>
+    <comment>property name</comment>
+  </data>
+  <data name="DeleteElement_TaskIdentifier_Description" xml:space="preserve">
+    <value>Identifier of the task that contains the element to delete.</value>
+    <comment>property description</comment>
+  </data>
+  <data name="DeleteElement_Code_DisplayName" xml:space="preserve">
+    <value>Code</value>
+    <comment>property name</comment>
+  </data>
+  <data name="DeleteElement_Code_Description" xml:space="preserve">
+    <value>Element definition code</value>
+    <comment>property description</comment>
+  </data>
+  <data name="DeleteElement_Task_DisplayName" xml:space="preserve">
+    <value>Task</value>
+    <comment>property name</comment>
+  </data>
+  <data name="DeleteElement_Task_Description" xml:space="preserve">
+    <value>Task resource</value>
+    <comment>property description</comment>
+  </data>
+  <data name="DeleteElementDocument_DisplayName" xml:space="preserve">
+    <value>Delete element document</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="DeleteElementDocument_Description" xml:space="preserve">
+    <value>Delete an element document value</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="DeleteElementDocument_TaskIdentifier_DisplayName" xml:space="preserve">
+    <value>Identifier of the task that contains the document to delete.</value>
+    <comment>property name</comment>
+  </data>
+  <data name="DeleteElementDocument_TaskIdentifier_Description" xml:space="preserve">
+    <value>Task identifier</value>
+    <comment>property description</comment>
+  </data>
+  <data name="DeleteElementDocument_Id_DisplayName" xml:space="preserve">
+    <value>Id</value>
+    <comment>property name</comment>
+  </data>
+  <data name="DeleteElementDocument_Id_Description" xml:space="preserve">
+    <value>Identifier of the document to delete</value>
+    <comment>property description</comment>
+  </data>
+  <data name="DeleteElementDocument_Task_DisplayName" xml:space="preserve">
+    <value>Task</value>
+    <comment>property name</comment>
+  </data>
+  <data name="DeleteElementDocument_Task_Description" xml:space="preserve">
+    <value>Task resource</value>
+    <comment>property description</comment>
   </data>
 </root>

@@ -1,9 +1,9 @@
 using System;
 using System.Activities;
-using System.Reflection.Emit;
 using System.Threading;
 using System.Threading.Tasks;
 using KuFlow.Rest;
+using KuFlow.Rest.Models;
 using KuFlow.UiPathLibrary.Activities.Properties;
 using UiPath.Shared.Activities;
 using UiPath.Shared.Activities.Localization;
@@ -11,9 +11,9 @@ using UiPath.Shared.Activities.Utilities;
 
 namespace KuFlow.UiPathLibrary.Activities
 {
-    [LocalizedDisplayName(nameof(Resources.RetrieveTask_DisplayName))]
-    [LocalizedDescription(nameof(Resources.RetrieveTask_Description))]
-    public class RetrieveTask : ContinuableAsyncCodeActivity
+    [LocalizedDisplayName(nameof(Resources.DeleteElement_DisplayName))]
+    [LocalizedDescription(nameof(Resources.DeleteElement_Description))]
+    public class DeleteElement : ContinuableAsyncCodeActivity
     {
         #region Properties
 
@@ -25,23 +25,29 @@ namespace KuFlow.UiPathLibrary.Activities
         [LocalizedDescription(nameof(Resources.ContinueOnError_Description))]
         public override InArgument<bool> ContinueOnError { get; set; }
 
-        [LocalizedDisplayName(nameof(Resources.RetrieveTask_TaskIdentifier_DisplayName))]
-        [LocalizedDescription(nameof(Resources.RetrieveTask_TaskIdentifier_Description))]
+        [LocalizedDisplayName(nameof(Resources.DeleteElement_TaskIdentifier_DisplayName))]
+        [LocalizedDescription(nameof(Resources.DeleteElement_TaskIdentifier_Description))]
         [LocalizedCategory(nameof(Resources.Input_Category))]
         public InArgument<string> TaskIdentifier { get; set; }
 
-        [LocalizedDisplayName(nameof(Resources.RetrieveTask_Task_DisplayName))]
-        [LocalizedDescription(nameof(Resources.RetrieveTask_Task_Description))]
+        [LocalizedDisplayName(nameof(Resources.DeleteElement_Code_DisplayName))]
+        [LocalizedDescription(nameof(Resources.DeleteElement_Code_Description))]
+        [LocalizedCategory(nameof(Resources.Input_Category))]
+        public InArgument<string> Code { get; set; }
+
+        [LocalizedDisplayName(nameof(Resources.DeleteElement_Task_DisplayName))]
+        [LocalizedDescription(nameof(Resources.DeleteElement_Task_Description))]
         [LocalizedCategory(nameof(Resources.Output_Category))]
         public OutArgument<Rest.Models.Task> Task { get; set; }
+
         #endregion
 
 
         #region Constructors
 
-        public RetrieveTask()
+        public DeleteElement()
         {
-            Constraints.Add(ActivityConstraints.HasParentType<RetrieveTask, KuFlowScope>(string.Format(Resources.ValidationScope_Error, Resources.KuFlowScope_DisplayName)));
+            Constraints.Add(ActivityConstraints.HasParentType<DeleteElement, KuFlowScope>(string.Format(Resources.ValidationScope_Error, Resources.KuFlowScope_DisplayName)));
         }
 
         #endregion
@@ -52,6 +58,7 @@ namespace KuFlow.UiPathLibrary.Activities
         protected override void CacheMetadata(CodeActivityMetadata metadata)
         {
             if (TaskIdentifier == null) metadata.AddValidationError(string.Format(Resources.ValidationValue_Error, nameof(TaskIdentifier)));
+            if (Code == null) metadata.AddValidationError(string.Format(Resources.ValidationValue_Error, nameof(Code)));
 
             base.CacheMetadata(metadata);
         }
@@ -63,11 +70,14 @@ namespace KuFlow.UiPathLibrary.Activities
 
             // Inputs
             var taskIdentifier = TaskIdentifier.Get(context);
+            var code = Code.Get(context);
 
             var client = objectContainer.Get<KuFlowRestClient>();
 
             var taskId = new Guid(taskIdentifier);
-            var taskResponse = client.TaskClient.RetrieveTask(taskId);
+            var command = new TaskDeleteElementCommand(code);
+
+            var taskResponse = client.TaskClient.ActionsTaskDeleteElement(taskId, command);
             var task = taskResponse.Value;
 
             // Outputs

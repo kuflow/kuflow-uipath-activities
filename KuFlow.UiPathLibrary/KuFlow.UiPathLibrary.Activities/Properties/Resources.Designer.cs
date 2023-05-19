@@ -142,6 +142,60 @@ namespace KuFlow.UiPathLibrary.Activities.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Allow to claim a task.
+        /// </summary>
+        public static string ClaimTask_Description {
+            get {
+                return ResourceManager.GetString("ClaimTask_Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Claim task.
+        /// </summary>
+        public static string ClaimTask_DisplayName {
+            get {
+                return ResourceManager.GetString("ClaimTask_DisplayName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Task resource.
+        /// </summary>
+        public static string ClaimTask_Task_Description {
+            get {
+                return ResourceManager.GetString("ClaimTask_Task_Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Task.
+        /// </summary>
+        public static string ClaimTask_Task_DisplayName {
+            get {
+                return ResourceManager.GetString("ClaimTask_Task_DisplayName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Identifier of the task to claim.
+        /// </summary>
+        public static string ClaimTask_TaskIdentifier_Description {
+            get {
+                return ResourceManager.GetString("ClaimTask_TaskIdentifier_Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Task Identifier.
+        /// </summary>
+        public static string ClaimTask_TaskIdentifier_DisplayName {
+            get {
+                return ResourceManager.GetString("ClaimTask_TaskIdentifier_DisplayName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Common.
         /// </summary>
         public static string Common_Category {
@@ -165,6 +219,150 @@ namespace KuFlow.UiPathLibrary.Activities.Properties {
         public static string ContinueOnError_DisplayName {
             get {
                 return ResourceManager.GetString("ContinueOnError_DisplayName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Element definition code.
+        /// </summary>
+        public static string DeleteElement_Code_Description {
+            get {
+                return ResourceManager.GetString("DeleteElement_Code_Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Code.
+        /// </summary>
+        public static string DeleteElement_Code_DisplayName {
+            get {
+                return ResourceManager.GetString("DeleteElement_Code_DisplayName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Delete an element by code.
+        /// </summary>
+        public static string DeleteElement_Description {
+            get {
+                return ResourceManager.GetString("DeleteElement_Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Delete element.
+        /// </summary>
+        public static string DeleteElement_DisplayName {
+            get {
+                return ResourceManager.GetString("DeleteElement_DisplayName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Task resource.
+        /// </summary>
+        public static string DeleteElement_Task_Description {
+            get {
+                return ResourceManager.GetString("DeleteElement_Task_Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Task.
+        /// </summary>
+        public static string DeleteElement_Task_DisplayName {
+            get {
+                return ResourceManager.GetString("DeleteElement_Task_DisplayName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Identifier of the task that contains the element to delete..
+        /// </summary>
+        public static string DeleteElement_TaskIdentifier_Description {
+            get {
+                return ResourceManager.GetString("DeleteElement_TaskIdentifier_Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Task Identifier.
+        /// </summary>
+        public static string DeleteElement_TaskIdentifier_DisplayName {
+            get {
+                return ResourceManager.GetString("DeleteElement_TaskIdentifier_DisplayName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Delete an element document value.
+        /// </summary>
+        public static string DeleteElementDocument_Description {
+            get {
+                return ResourceManager.GetString("DeleteElementDocument_Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Delete element document.
+        /// </summary>
+        public static string DeleteElementDocument_DisplayName {
+            get {
+                return ResourceManager.GetString("DeleteElementDocument_DisplayName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Identifier of the document to delete.
+        /// </summary>
+        public static string DeleteElementDocument_Id_Description {
+            get {
+                return ResourceManager.GetString("DeleteElementDocument_Id_Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Id.
+        /// </summary>
+        public static string DeleteElementDocument_Id_DisplayName {
+            get {
+                return ResourceManager.GetString("DeleteElementDocument_Id_DisplayName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Task resource.
+        /// </summary>
+        public static string DeleteElementDocument_Task_Description {
+            get {
+                return ResourceManager.GetString("DeleteElementDocument_Task_Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Task.
+        /// </summary>
+        public static string DeleteElementDocument_Task_DisplayName {
+            get {
+                return ResourceManager.GetString("DeleteElementDocument_Task_DisplayName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Task identifier.
+        /// </summary>
+        public static string DeleteElementDocument_TaskIdentifier_Description {
+            get {
+                return ResourceManager.GetString("DeleteElementDocument_TaskIdentifier_Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Identifier of the task that contains the document to delete..
+        /// </summary>
+        public static string DeleteElementDocument_TaskIdentifier_DisplayName {
+            get {
+                return ResourceManager.GetString("DeleteElementDocument_TaskIdentifier_DisplayName", resourceCulture);
             }
         }
         
@@ -268,7 +466,7 @@ namespace KuFlow.UiPathLibrary.Activities.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Retrieve Process.
+        ///   Looks up a localized string similar to Retrieve process.
         /// </summary>
         public static string RetrieveProcess_DisplayName {
             get {
@@ -363,6 +561,240 @@ namespace KuFlow.UiPathLibrary.Activities.Properties {
         public static string RetrieveTask_TaskIdentifier_DisplayName {
             get {
                 return ResourceManager.GetString("RetrieveTask_TaskIdentifier_DisplayName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Element definition code.
+        /// </summary>
+        public static string SaveElement_Code_Description {
+            get {
+                return ResourceManager.GetString("SaveElement_Code_Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Code.
+        /// </summary>
+        public static string SaveElement_Code_DisplayName {
+            get {
+                return ResourceManager.GetString("SaveElement_Code_DisplayName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Allow to save an element i.e., a field, a decision, a form, a principal or document (a reference)..
+        /// </summary>
+        public static string SaveElement_Description {
+            get {
+                return ResourceManager.GetString("SaveElement_Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Save element.
+        /// </summary>
+        public static string SaveElement_DisplayName {
+            get {
+                return ResourceManager.GetString("SaveElement_DisplayName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Value to set.
+        /// </summary>
+        public static string SaveElement_Task_Description {
+            get {
+                return ResourceManager.GetString("SaveElement_Task_Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Value.
+        /// </summary>
+        public static string SaveElement_Task_DisplayName {
+            get {
+                return ResourceManager.GetString("SaveElement_Task_DisplayName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Identifier of the task.
+        /// </summary>
+        public static string SaveElement_TaskIdentifier_Description {
+            get {
+                return ResourceManager.GetString("SaveElement_TaskIdentifier_Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Task Identifier.
+        /// </summary>
+        public static string SaveElement_TaskIdentifier_DisplayName {
+            get {
+                return ResourceManager.GetString("SaveElement_TaskIdentifier_DisplayName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Mark element as valid/invalid. Default is valid..
+        /// </summary>
+        public static string SaveElement_Valid_Description {
+            get {
+                return ResourceManager.GetString("SaveElement_Valid_Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Valid.
+        /// </summary>
+        public static string SaveElement_Valid_DisplayName {
+            get {
+                return ResourceManager.GetString("SaveElement_Valid_DisplayName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Value to set.
+        /// </summary>
+        public static string SaveElement_Value_Description {
+            get {
+                return ResourceManager.GetString("SaveElement_Value_Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Value.
+        /// </summary>
+        public static string SaveElement_Value_DisplayName {
+            get {
+                return ResourceManager.GetString("SaveElement_Value_DisplayName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Element definition code.
+        /// </summary>
+        public static string SaveElementDocument_Code_Description {
+            get {
+                return ResourceManager.GetString("SaveElementDocument_Code_Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Code.
+        /// </summary>
+        public static string SaveElementDocument_Code_DisplayName {
+            get {
+                return ResourceManager.GetString("SaveElementDocument_Code_DisplayName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Save a element of type document.
+        /// </summary>
+        public static string SaveElementDocument_Description {
+            get {
+                return ResourceManager.GetString("SaveElementDocument_Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Save element document.
+        /// </summary>
+        public static string SaveElementDocument_DisplayName {
+            get {
+                return ResourceManager.GetString("SaveElementDocument_DisplayName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to A file path to upload in a file system.
+        /// </summary>
+        public static string SaveElementDocument_FilePath_Description {
+            get {
+                return ResourceManager.GetString("SaveElementDocument_FilePath_Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to File Path.
+        /// </summary>
+        public static string SaveElementDocument_FilePath_DisplayName {
+            get {
+                return ResourceManager.GetString("SaveElementDocument_FilePath_DisplayName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to UUID to identify a document. Leave blanck to generate one..
+        /// </summary>
+        public static string SaveElementDocument_Id_Description {
+            get {
+                return ResourceManager.GetString("SaveElementDocument_Id_Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Id.
+        /// </summary>
+        public static string SaveElementDocument_Id_DisplayName {
+            get {
+                return ResourceManager.GetString("SaveElementDocument_Id_DisplayName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Task resource.
+        /// </summary>
+        public static string SaveElementDocument_Task_Description {
+            get {
+                return ResourceManager.GetString("SaveElementDocument_Task_Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Task.
+        /// </summary>
+        public static string SaveElementDocument_Task_DisplayName {
+            get {
+                return ResourceManager.GetString("SaveElementDocument_Task_DisplayName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Identifier of the task.
+        /// </summary>
+        public static string SaveElementDocument_TaskIdentifier_Description {
+            get {
+                return ResourceManager.GetString("SaveElementDocument_TaskIdentifier_Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Task Identifier.
+        /// </summary>
+        public static string SaveElementDocument_TaskIdentifier_DisplayName {
+            get {
+                return ResourceManager.GetString("SaveElementDocument_TaskIdentifier_DisplayName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Mark document as valid/invalid. Default is valid..
+        /// </summary>
+        public static string SaveElementDocument_Valid_Description {
+            get {
+                return ResourceManager.GetString("SaveElementDocument_Valid_Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Valid.
+        /// </summary>
+        public static string SaveElementDocument_Valid_DisplayName {
+            get {
+                return ResourceManager.GetString("SaveElementDocument_Valid_DisplayName", resourceCulture);
             }
         }
         
