@@ -44,6 +44,14 @@
   </ItemGroup>
   <!-- Package Icon -->
   <ItemGroup>
+    <None Include="..\..\etc\images\icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
     <None Include="packageIcon.png" Pack="true" Visible="false" PackagePath="" />
   </ItemGroup>
   <Target Name="CopyProjectReferencesToPackage" DependsOnTargets="BuildOnlySettings;ResolveReferences">
@@ -63,6 +71,10 @@
   <PropertyGroup>
     <OutputPath>bin\$(Configuration)\</OutputPath>
     <DocumentationFile>bin\$(Configuration)\KuFlow.UiPathLibrary.Activities.Design.xml</DocumentationFile>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/kuflow/kuflow-uipath-activities</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="KuFlow.Rest" Version="0.1.0.519113717" />
