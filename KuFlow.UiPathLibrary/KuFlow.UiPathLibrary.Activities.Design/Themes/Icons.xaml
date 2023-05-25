@@ -1,5 +1,770 @@
 <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
 
 
-    
+        <!--KuFlowScope, AppendALogToTheTask Icon-->
+    <DrawingGroup x:Key="kuflowIcon992d03fd26e64b259e2a802c6cac63d9_0">
+      <DrawingGroup.ClipGeometry>
+        <RectangleGeometry Rect="0,0,417,417" />
+      </DrawingGroup.ClipGeometry>
+      <DrawingGroup Transform="1,0,0,1,-5465,-4865">
+        <DrawingGroup x:Name="kuflowIcon992d03fd26e64b259e2a802c6cac63d9_1" Transform="1,0,0,1,5301.79,4064.36">
+          <DrawingGroup>
+            <DrawingGroup Transform="1.5071,0,0,1.5071,-2500.11,-1495.33">
+              <DrawingGroup Transform="0,-0.789,0.789,0,581.456,3205.99">
+                <GeometryDrawing Brush="#FFFF5A00">
+                  <GeometryDrawing.Geometry>
+                    <PathGeometry FillRule="EvenOdd" Figures="M2132,1591.22C2132,1543.08,2092.92,1504,2044.78,1504L1870.34,1504C1822.2,1504,1783.12,1543.08,1783.12,1591.22L1783.12,1765.66C1783.12,1813.8,1822.2,1852.88,1870.34,1852.88L2044.78,1852.88C2092.92,1852.88,2132,1813.8,2132,1765.66L2132,1591.22z" />
+                  </GeometryDrawing.Geometry>
+                </GeometryDrawing>
+              </DrawingGroup>
+              <DrawingGroup Transform="1,0,0,1,-3.4164,0">
+                <DrawingGroup Transform="0.5962,0,0,0.5962,10.3402,806.717">
+                  <GeometryDrawing Brush="#FFFFFFFF">
+                    <GeometryDrawing.Geometry>
+                      <PathGeometry FillRule="EvenOdd" Figures="M3111.49,1379.01C3141.56,1379.01 3165.98,1403.43 3165.98,1433.5 3165.98,1463.57 3141.56,1487.99 3111.49,1487.99 3081.41,1487.99 3057,1463.57 3057,1433.5 3057,1403.43 3081.41,1379.01 3111.49,1379.01z M3111.49,1413.96C3122.27,1413.96 3131.03,1422.71 3131.03,1433.5 3131.03,1444.29 3122.27,1453.04 3111.49,1453.04 3100.7,1453.04 3091.95,1444.29 3091.95,1433.5 3091.95,1422.71 3100.7,1413.96 3111.49,1413.96z" />
+                    </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+                </DrawingGroup>
+                <DrawingGroup Transform="1,0,0,1,-339.278,11.9187">
+                  <GeometryDrawing>
+                    <GeometryDrawing.Pen>
+                      <Pen Brush="#FFFFFFFF" Thickness="33.33" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                    <GeometryDrawing.Geometry>
+                      <PathGeometry FillRule="EvenOdd" Figures="M2233.3,1649.51C2233.3,1649.51 2268,1646.74 2268,1616.72 2268,1586.7 2270.13,1570.91 2309.25,1571.28" />
+                    </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+                </DrawingGroup>
+                <DrawingGroup Transform="1,0,0,-1,-339.278,3310.94">
+                  <GeometryDrawing>
+                    <GeometryDrawing.Pen>
+                      <Pen Brush="#FFFFFFFF" Thickness="33.33" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                    <GeometryDrawing.Geometry>
+                      <PathGeometry FillRule="EvenOdd" Figures="M2233.3,1649.51C2233.3,1649.51 2268,1646.74 2268,1616.72 2268,1586.7 2270.13,1570.91 2309.25,1571.28" />
+                    </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+                </DrawingGroup>
+                <DrawingGroup Transform="1,0,0,1,-317.278,12.4685">
+                  <GeometryDrawing>
+                    <GeometryDrawing.Pen>
+                      <Pen Brush="#FFFFFFFF" Thickness="33.33" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                    <GeometryDrawing.Geometry>
+                      <PathGeometry FillRule="EvenOdd" Figures="M2182.82,1616.47L2182.82,1570.72" />
+                    </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+                </DrawingGroup>
+                <DrawingGroup Transform="1,0,0,1,-317.278,12.4685">
+                  <GeometryDrawing>
+                    <GeometryDrawing.Pen>
+                      <Pen Brush="#FFFFFFFF" Thickness="33.33" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                    <GeometryDrawing.Geometry>
+                      <PathGeometry FillRule="EvenOdd" Figures="M2182.82,1677.45L2182.82,1727.2" />
+                    </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+                </DrawingGroup>
+              </DrawingGroup>
+              <DrawingGroup Transform="1,0,0,1,-4.0556,0">
+                <DrawingGroup Transform="0.5962,0,0,0.5962,10.3402,806.717">
+                  <GeometryDrawing Brush="#FFFFFFFF">
+                    <GeometryDrawing.Geometry>
+                      <PathGeometry FillRule="EvenOdd" Figures="M3111.49,1379.01C3141.56,1379.01 3165.98,1403.43 3165.98,1433.5 3165.98,1463.57 3141.56,1487.99 3111.49,1487.99 3081.41,1487.99 3057,1463.57 3057,1433.5 3057,1403.43 3081.41,1379.01 3111.49,1379.01z M3111.49,1413.96C3122.27,1413.96 3131.03,1422.71 3131.03,1433.5 3131.03,1444.29 3122.27,1453.04 3111.49,1453.04 3100.7,1453.04 3091.95,1444.29 3091.95,1433.5 3091.95,1422.71 3100.7,1413.96 3111.49,1413.96z" />
+                    </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+                </DrawingGroup>
+                <DrawingGroup Transform="1,0,0,1,-339.278,11.9187">
+                  <GeometryDrawing Brush="#FFFFFFFF">
+                    <GeometryDrawing.Geometry>
+                      <PathGeometry FillRule="EvenOdd" Figures="M2234.63,1666.12C2234.63,1666.12 2284.67,1660.93 2284.67,1616.72 2284.67,1610.33 2284.73,1604.67 2285.38,1599.76 2285.83,1596.28 2286.05,1593.26 2288.33,1591.41 2292.28,1588.22 2298.87,1587.85 2309.1,1587.94 2318.29,1588.03 2325.83,1580.63 2325.92,1571.43 2326,1562.24 2318.61,1554.7 2309.41,1554.61 2288.31,1554.41 2275.48,1558.92 2267.34,1565.52 2255.03,1575.5 2251.33,1592.25 2251.33,1616.72 2251.33,1623.74 2247.11,1627.46 2243.05,1629.54 2237.5,1632.38 2231.98,1632.9 2231.98,1632.9 2222.81,1633.63 2215.96,1641.67 2216.69,1650.84 2217.42,1660.01 2225.46,1666.86 2234.63,1666.12z" />
+                    </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+                </DrawingGroup>
+                <DrawingGroup Transform="1,0,0,-1,-339.278,3310.94">
+                  <GeometryDrawing Brush="#FFFFFFFF">
+                    <GeometryDrawing.Geometry>
+                      <PathGeometry FillRule="EvenOdd" Figures="M2231.98,1632.9C2231.98,1632.9 2237.5,1632.38 2243.05,1629.54 2247.11,1627.46 2251.33,1623.74 2251.33,1616.72 2251.33,1592.25 2255.03,1575.5 2267.34,1565.52 2275.48,1558.92 2288.31,1554.41 2309.41,1554.61 2318.61,1554.7 2326,1562.24 2325.92,1571.43 2325.83,1580.63 2318.29,1588.03 2309.1,1587.94 2298.87,1587.85 2292.28,1588.22 2288.33,1591.41 2286.05,1593.26 2285.83,1596.28 2285.38,1599.76 2284.73,1604.67 2284.67,1610.33 2284.67,1616.72 2284.67,1660.93 2234.63,1666.12 2234.63,1666.12 2225.46,1666.86 2217.42,1660.01 2216.69,1650.84 2215.96,1641.67 2222.81,1633.63 2231.98,1632.9L2231.98,1632.9z" />
+                    </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+                </DrawingGroup>
+                <DrawingGroup Transform="1,0,0,1,-317.278,12.4685">
+                  <GeometryDrawing Brush="#FFFFFFFF">
+                    <GeometryDrawing.Geometry>
+                      <PathGeometry FillRule="EvenOdd" Figures="M2199.48,1616.47L2199.48,1570.72C2199.48,1561.52 2192.01,1554.06 2182.82,1554.06 2173.62,1554.06 2166.15,1561.52 2166.15,1570.72L2166.15,1616.47C2166.15,1625.67 2173.62,1633.14 2182.82,1633.14 2192.01,1633.14 2199.48,1625.67 2199.48,1616.47z" />
+                    </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+                </DrawingGroup>
+                <DrawingGroup Transform="1,0,0,1,-317.278,12.4685">
+                  <GeometryDrawing Brush="#FFFFFFFF">
+                    <GeometryDrawing.Geometry>
+                      <PathGeometry FillRule="EvenOdd" Figures="M2166.15,1677.45L2166.15,1727.2C2166.15,1736.4 2173.62,1743.87 2182.82,1743.87 2192.01,1743.87 2199.48,1736.4 2199.48,1727.2L2199.48,1677.45C2199.48,1668.25 2192.01,1660.78 2182.82,1660.78 2173.62,1660.78 2166.15,1668.25 2166.15,1677.45z" />
+                    </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+                </DrawingGroup>
+              </DrawingGroup>
+            </DrawingGroup>
+          </DrawingGroup>
+        </DrawingGroup>
+      </DrawingGroup>
+    </DrawingGroup>
+    <DrawingBrush x:Key="KuFlowScopeIcon" Drawing="{StaticResource kuflowIcon992d03fd26e64b259e2a802c6cac63d9_0}" />
+    <DrawingBrush x:Key="AppendALogToTheTaskIcon" Drawing="{StaticResource kuflowIcon992d03fd26e64b259e2a802c6cac63d9_0}" />
+
+    <!--RetrieveTask Icon-->
+    <DrawingGroup x:Key="kuflowIcond67fe99fd95b4f448f8c904f5b77fed1_0">
+      <DrawingGroup.ClipGeometry>
+        <RectangleGeometry Rect="0,0,417,417" />
+      </DrawingGroup.ClipGeometry>
+      <DrawingGroup Transform="1,0,0,1,-5465,-4865">
+        <DrawingGroup x:Name="kuflowIcond67fe99fd95b4f448f8c904f5b77fed1_1" Transform="1,0,0,1,5301.79,4064.36">
+          <DrawingGroup>
+            <DrawingGroup Transform="1.5071,0,0,1.5071,-2500.11,-1495.33">
+              <DrawingGroup Transform="0,-0.789,0.789,0,581.456,3205.99">
+                <GeometryDrawing Brush="#FFFF5A00">
+                  <GeometryDrawing.Geometry>
+                    <PathGeometry FillRule="EvenOdd" Figures="M2132,1591.22C2132,1543.08,2092.92,1504,2044.78,1504L1870.34,1504C1822.2,1504,1783.12,1543.08,1783.12,1591.22L1783.12,1765.66C1783.12,1813.8,1822.2,1852.88,1870.34,1852.88L2044.78,1852.88C2092.92,1852.88,2132,1813.8,2132,1765.66L2132,1591.22z" />
+                  </GeometryDrawing.Geometry>
+                </GeometryDrawing>
+              </DrawingGroup>
+              <DrawingGroup Transform="1,0,0,1,-3.4164,0">
+                <DrawingGroup Transform="0.5962,0,0,0.5962,10.3402,806.717">
+                  <GeometryDrawing Brush="#FFFFFFFF">
+                    <GeometryDrawing.Geometry>
+                      <PathGeometry FillRule="EvenOdd" Figures="M3111.49,1379.01C3141.56,1379.01 3165.98,1403.43 3165.98,1433.5 3165.98,1463.57 3141.56,1487.99 3111.49,1487.99 3081.41,1487.99 3057,1463.57 3057,1433.5 3057,1403.43 3081.41,1379.01 3111.49,1379.01z M3111.49,1413.96C3122.27,1413.96 3131.03,1422.71 3131.03,1433.5 3131.03,1444.29 3122.27,1453.04 3111.49,1453.04 3100.7,1453.04 3091.95,1444.29 3091.95,1433.5 3091.95,1422.71 3100.7,1413.96 3111.49,1413.96z" />
+                    </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+                </DrawingGroup>
+                <DrawingGroup Transform="1,0,0,1,-339.278,11.9187">
+                  <GeometryDrawing>
+                    <GeometryDrawing.Pen>
+                      <Pen Brush="#FFFFFFFF" Thickness="33.33" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                    <GeometryDrawing.Geometry>
+                      <PathGeometry FillRule="EvenOdd" Figures="M2233.3,1649.51C2233.3,1649.51 2268,1646.74 2268,1616.72 2268,1586.7 2270.13,1570.91 2309.25,1571.28" />
+                    </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+                </DrawingGroup>
+                <DrawingGroup Transform="1,0,0,-1,-339.278,3310.94">
+                  <GeometryDrawing>
+                    <GeometryDrawing.Pen>
+                      <Pen Brush="#FFFFFFFF" Thickness="33.33" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                    <GeometryDrawing.Geometry>
+                      <PathGeometry FillRule="EvenOdd" Figures="M2233.3,1649.51C2233.3,1649.51 2268,1646.74 2268,1616.72 2268,1586.7 2270.13,1570.91 2309.25,1571.28" />
+                    </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+                </DrawingGroup>
+                <DrawingGroup Transform="1,0,0,1,-317.278,12.4685">
+                  <GeometryDrawing>
+                    <GeometryDrawing.Pen>
+                      <Pen Brush="#FFFFFFFF" Thickness="33.33" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                    <GeometryDrawing.Geometry>
+                      <PathGeometry FillRule="EvenOdd" Figures="M2182.82,1616.47L2182.82,1570.72" />
+                    </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+                </DrawingGroup>
+                <DrawingGroup Transform="1,0,0,1,-317.278,12.4685">
+                  <GeometryDrawing>
+                    <GeometryDrawing.Pen>
+                      <Pen Brush="#FFFFFFFF" Thickness="33.33" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                    <GeometryDrawing.Geometry>
+                      <PathGeometry FillRule="EvenOdd" Figures="M2182.82,1677.45L2182.82,1727.2" />
+                    </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+                </DrawingGroup>
+              </DrawingGroup>
+              <DrawingGroup Transform="1,0,0,1,-4.0556,0">
+                <DrawingGroup Transform="0.5962,0,0,0.5962,10.3402,806.717">
+                  <GeometryDrawing Brush="#FFFFFFFF">
+                    <GeometryDrawing.Geometry>
+                      <PathGeometry FillRule="EvenOdd" Figures="M3111.49,1379.01C3141.56,1379.01 3165.98,1403.43 3165.98,1433.5 3165.98,1463.57 3141.56,1487.99 3111.49,1487.99 3081.41,1487.99 3057,1463.57 3057,1433.5 3057,1403.43 3081.41,1379.01 3111.49,1379.01z M3111.49,1413.96C3122.27,1413.96 3131.03,1422.71 3131.03,1433.5 3131.03,1444.29 3122.27,1453.04 3111.49,1453.04 3100.7,1453.04 3091.95,1444.29 3091.95,1433.5 3091.95,1422.71 3100.7,1413.96 3111.49,1413.96z" />
+                    </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+                </DrawingGroup>
+                <DrawingGroup Transform="1,0,0,1,-339.278,11.9187">
+                  <GeometryDrawing Brush="#FFFFFFFF">
+                    <GeometryDrawing.Geometry>
+                      <PathGeometry FillRule="EvenOdd" Figures="M2234.63,1666.12C2234.63,1666.12 2284.67,1660.93 2284.67,1616.72 2284.67,1610.33 2284.73,1604.67 2285.38,1599.76 2285.83,1596.28 2286.05,1593.26 2288.33,1591.41 2292.28,1588.22 2298.87,1587.85 2309.1,1587.94 2318.29,1588.03 2325.83,1580.63 2325.92,1571.43 2326,1562.24 2318.61,1554.7 2309.41,1554.61 2288.31,1554.41 2275.48,1558.92 2267.34,1565.52 2255.03,1575.5 2251.33,1592.25 2251.33,1616.72 2251.33,1623.74 2247.11,1627.46 2243.05,1629.54 2237.5,1632.38 2231.98,1632.9 2231.98,1632.9 2222.81,1633.63 2215.96,1641.67 2216.69,1650.84 2217.42,1660.01 2225.46,1666.86 2234.63,1666.12z" />
+                    </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+                </DrawingGroup>
+                <DrawingGroup Transform="1,0,0,-1,-339.278,3310.94">
+                  <GeometryDrawing Brush="#FFFFFFFF">
+                    <GeometryDrawing.Geometry>
+                      <PathGeometry FillRule="EvenOdd" Figures="M2231.98,1632.9C2231.98,1632.9 2237.5,1632.38 2243.05,1629.54 2247.11,1627.46 2251.33,1623.74 2251.33,1616.72 2251.33,1592.25 2255.03,1575.5 2267.34,1565.52 2275.48,1558.92 2288.31,1554.41 2309.41,1554.61 2318.61,1554.7 2326,1562.24 2325.92,1571.43 2325.83,1580.63 2318.29,1588.03 2309.1,1587.94 2298.87,1587.85 2292.28,1588.22 2288.33,1591.41 2286.05,1593.26 2285.83,1596.28 2285.38,1599.76 2284.73,1604.67 2284.67,1610.33 2284.67,1616.72 2284.67,1660.93 2234.63,1666.12 2234.63,1666.12 2225.46,1666.86 2217.42,1660.01 2216.69,1650.84 2215.96,1641.67 2222.81,1633.63 2231.98,1632.9L2231.98,1632.9z" />
+                    </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+                </DrawingGroup>
+                <DrawingGroup Transform="1,0,0,1,-317.278,12.4685">
+                  <GeometryDrawing Brush="#FFFFFFFF">
+                    <GeometryDrawing.Geometry>
+                      <PathGeometry FillRule="EvenOdd" Figures="M2199.48,1616.47L2199.48,1570.72C2199.48,1561.52 2192.01,1554.06 2182.82,1554.06 2173.62,1554.06 2166.15,1561.52 2166.15,1570.72L2166.15,1616.47C2166.15,1625.67 2173.62,1633.14 2182.82,1633.14 2192.01,1633.14 2199.48,1625.67 2199.48,1616.47z" />
+                    </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+                </DrawingGroup>
+                <DrawingGroup Transform="1,0,0,1,-317.278,12.4685">
+                  <GeometryDrawing Brush="#FFFFFFFF">
+                    <GeometryDrawing.Geometry>
+                      <PathGeometry FillRule="EvenOdd" Figures="M2166.15,1677.45L2166.15,1727.2C2166.15,1736.4 2173.62,1743.87 2182.82,1743.87 2192.01,1743.87 2199.48,1736.4 2199.48,1727.2L2199.48,1677.45C2199.48,1668.25 2192.01,1660.78 2182.82,1660.78 2173.62,1660.78 2166.15,1668.25 2166.15,1677.45z" />
+                    </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+                </DrawingGroup>
+              </DrawingGroup>
+            </DrawingGroup>
+          </DrawingGroup>
+        </DrawingGroup>
+      </DrawingGroup>
+    </DrawingGroup>
+    <DrawingBrush x:Key="RetrieveTaskIcon" Drawing="{StaticResource kuflowIcond67fe99fd95b4f448f8c904f5b77fed1_0}" />
+
+    <!--RetrieveProcess Icon-->
+    <DrawingGroup x:Key="kuflowIcond1c24ba3d681429cbbb8b2f36691475d_0">
+      <DrawingGroup.ClipGeometry>
+        <RectangleGeometry Rect="0,0,417,417" />
+      </DrawingGroup.ClipGeometry>
+      <DrawingGroup Transform="1,0,0,1,-5465,-4865">
+        <DrawingGroup x:Name="kuflowIcond1c24ba3d681429cbbb8b2f36691475d_1" Transform="1,0,0,1,5301.79,4064.36">
+          <DrawingGroup>
+            <DrawingGroup Transform="1.5071,0,0,1.5071,-2500.11,-1495.33">
+              <DrawingGroup Transform="0,-0.789,0.789,0,581.456,3205.99">
+                <GeometryDrawing Brush="#FFFF5A00">
+                  <GeometryDrawing.Geometry>
+                    <PathGeometry FillRule="EvenOdd" Figures="M2132,1591.22C2132,1543.08,2092.92,1504,2044.78,1504L1870.34,1504C1822.2,1504,1783.12,1543.08,1783.12,1591.22L1783.12,1765.66C1783.12,1813.8,1822.2,1852.88,1870.34,1852.88L2044.78,1852.88C2092.92,1852.88,2132,1813.8,2132,1765.66L2132,1591.22z" />
+                  </GeometryDrawing.Geometry>
+                </GeometryDrawing>
+              </DrawingGroup>
+              <DrawingGroup Transform="1,0,0,1,-3.4164,0">
+                <DrawingGroup Transform="0.5962,0,0,0.5962,10.3402,806.717">
+                  <GeometryDrawing Brush="#FFFFFFFF">
+                    <GeometryDrawing.Geometry>
+                      <PathGeometry FillRule="EvenOdd" Figures="M3111.49,1379.01C3141.56,1379.01 3165.98,1403.43 3165.98,1433.5 3165.98,1463.57 3141.56,1487.99 3111.49,1487.99 3081.41,1487.99 3057,1463.57 3057,1433.5 3057,1403.43 3081.41,1379.01 3111.49,1379.01z M3111.49,1413.96C3122.27,1413.96 3131.03,1422.71 3131.03,1433.5 3131.03,1444.29 3122.27,1453.04 3111.49,1453.04 3100.7,1453.04 3091.95,1444.29 3091.95,1433.5 3091.95,1422.71 3100.7,1413.96 3111.49,1413.96z" />
+                    </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+                </DrawingGroup>
+                <DrawingGroup Transform="1,0,0,1,-339.278,11.9187">
+                  <GeometryDrawing>
+                    <GeometryDrawing.Pen>
+                      <Pen Brush="#FFFFFFFF" Thickness="33.33" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                    <GeometryDrawing.Geometry>
+                      <PathGeometry FillRule="EvenOdd" Figures="M2233.3,1649.51C2233.3,1649.51 2268,1646.74 2268,1616.72 2268,1586.7 2270.13,1570.91 2309.25,1571.28" />
+                    </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+                </DrawingGroup>
+                <DrawingGroup Transform="1,0,0,-1,-339.278,3310.94">
+                  <GeometryDrawing>
+                    <GeometryDrawing.Pen>
+                      <Pen Brush="#FFFFFFFF" Thickness="33.33" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                    <GeometryDrawing.Geometry>
+                      <PathGeometry FillRule="EvenOdd" Figures="M2233.3,1649.51C2233.3,1649.51 2268,1646.74 2268,1616.72 2268,1586.7 2270.13,1570.91 2309.25,1571.28" />
+                    </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+                </DrawingGroup>
+                <DrawingGroup Transform="1,0,0,1,-317.278,12.4685">
+                  <GeometryDrawing>
+                    <GeometryDrawing.Pen>
+                      <Pen Brush="#FFFFFFFF" Thickness="33.33" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                    <GeometryDrawing.Geometry>
+                      <PathGeometry FillRule="EvenOdd" Figures="M2182.82,1616.47L2182.82,1570.72" />
+                    </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+                </DrawingGroup>
+                <DrawingGroup Transform="1,0,0,1,-317.278,12.4685">
+                  <GeometryDrawing>
+                    <GeometryDrawing.Pen>
+                      <Pen Brush="#FFFFFFFF" Thickness="33.33" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                    <GeometryDrawing.Geometry>
+                      <PathGeometry FillRule="EvenOdd" Figures="M2182.82,1677.45L2182.82,1727.2" />
+                    </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+                </DrawingGroup>
+              </DrawingGroup>
+              <DrawingGroup Transform="1,0,0,1,-4.0556,0">
+                <DrawingGroup Transform="0.5962,0,0,0.5962,10.3402,806.717">
+                  <GeometryDrawing Brush="#FFFFFFFF">
+                    <GeometryDrawing.Geometry>
+                      <PathGeometry FillRule="EvenOdd" Figures="M3111.49,1379.01C3141.56,1379.01 3165.98,1403.43 3165.98,1433.5 3165.98,1463.57 3141.56,1487.99 3111.49,1487.99 3081.41,1487.99 3057,1463.57 3057,1433.5 3057,1403.43 3081.41,1379.01 3111.49,1379.01z M3111.49,1413.96C3122.27,1413.96 3131.03,1422.71 3131.03,1433.5 3131.03,1444.29 3122.27,1453.04 3111.49,1453.04 3100.7,1453.04 3091.95,1444.29 3091.95,1433.5 3091.95,1422.71 3100.7,1413.96 3111.49,1413.96z" />
+                    </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+                </DrawingGroup>
+                <DrawingGroup Transform="1,0,0,1,-339.278,11.9187">
+                  <GeometryDrawing Brush="#FFFFFFFF">
+                    <GeometryDrawing.Geometry>
+                      <PathGeometry FillRule="EvenOdd" Figures="M2234.63,1666.12C2234.63,1666.12 2284.67,1660.93 2284.67,1616.72 2284.67,1610.33 2284.73,1604.67 2285.38,1599.76 2285.83,1596.28 2286.05,1593.26 2288.33,1591.41 2292.28,1588.22 2298.87,1587.85 2309.1,1587.94 2318.29,1588.03 2325.83,1580.63 2325.92,1571.43 2326,1562.24 2318.61,1554.7 2309.41,1554.61 2288.31,1554.41 2275.48,1558.92 2267.34,1565.52 2255.03,1575.5 2251.33,1592.25 2251.33,1616.72 2251.33,1623.74 2247.11,1627.46 2243.05,1629.54 2237.5,1632.38 2231.98,1632.9 2231.98,1632.9 2222.81,1633.63 2215.96,1641.67 2216.69,1650.84 2217.42,1660.01 2225.46,1666.86 2234.63,1666.12z" />
+                    </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+                </DrawingGroup>
+                <DrawingGroup Transform="1,0,0,-1,-339.278,3310.94">
+                  <GeometryDrawing Brush="#FFFFFFFF">
+                    <GeometryDrawing.Geometry>
+                      <PathGeometry FillRule="EvenOdd" Figures="M2231.98,1632.9C2231.98,1632.9 2237.5,1632.38 2243.05,1629.54 2247.11,1627.46 2251.33,1623.74 2251.33,1616.72 2251.33,1592.25 2255.03,1575.5 2267.34,1565.52 2275.48,1558.92 2288.31,1554.41 2309.41,1554.61 2318.61,1554.7 2326,1562.24 2325.92,1571.43 2325.83,1580.63 2318.29,1588.03 2309.1,1587.94 2298.87,1587.85 2292.28,1588.22 2288.33,1591.41 2286.05,1593.26 2285.83,1596.28 2285.38,1599.76 2284.73,1604.67 2284.67,1610.33 2284.67,1616.72 2284.67,1660.93 2234.63,1666.12 2234.63,1666.12 2225.46,1666.86 2217.42,1660.01 2216.69,1650.84 2215.96,1641.67 2222.81,1633.63 2231.98,1632.9L2231.98,1632.9z" />
+                    </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+                </DrawingGroup>
+                <DrawingGroup Transform="1,0,0,1,-317.278,12.4685">
+                  <GeometryDrawing Brush="#FFFFFFFF">
+                    <GeometryDrawing.Geometry>
+                      <PathGeometry FillRule="EvenOdd" Figures="M2199.48,1616.47L2199.48,1570.72C2199.48,1561.52 2192.01,1554.06 2182.82,1554.06 2173.62,1554.06 2166.15,1561.52 2166.15,1570.72L2166.15,1616.47C2166.15,1625.67 2173.62,1633.14 2182.82,1633.14 2192.01,1633.14 2199.48,1625.67 2199.48,1616.47z" />
+                    </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+                </DrawingGroup>
+                <DrawingGroup Transform="1,0,0,1,-317.278,12.4685">
+                  <GeometryDrawing Brush="#FFFFFFFF">
+                    <GeometryDrawing.Geometry>
+                      <PathGeometry FillRule="EvenOdd" Figures="M2166.15,1677.45L2166.15,1727.2C2166.15,1736.4 2173.62,1743.87 2182.82,1743.87 2192.01,1743.87 2199.48,1736.4 2199.48,1727.2L2199.48,1677.45C2199.48,1668.25 2192.01,1660.78 2182.82,1660.78 2173.62,1660.78 2166.15,1668.25 2166.15,1677.45z" />
+                    </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+                </DrawingGroup>
+              </DrawingGroup>
+            </DrawingGroup>
+          </DrawingGroup>
+        </DrawingGroup>
+      </DrawingGroup>
+    </DrawingGroup>
+    <DrawingBrush x:Key="RetrieveProcessIcon" Drawing="{StaticResource kuflowIcond1c24ba3d681429cbbb8b2f36691475d_0}" />
+
+    <!--ClaimTask, SaveElement Icon-->
+    <DrawingGroup x:Key="kuflowIcond8eae0e8e3e14c8f9f4d4d2809fc8b3a_0">
+      <DrawingGroup.ClipGeometry>
+        <RectangleGeometry Rect="0,0,417,417" />
+      </DrawingGroup.ClipGeometry>
+      <DrawingGroup Transform="1,0,0,1,-5465,-4865">
+        <DrawingGroup x:Name="kuflowIcond8eae0e8e3e14c8f9f4d4d2809fc8b3a_1" Transform="1,0,0,1,5301.79,4064.36">
+          <DrawingGroup>
+            <DrawingGroup Transform="1.5071,0,0,1.5071,-2500.11,-1495.33">
+              <DrawingGroup Transform="0,-0.789,0.789,0,581.456,3205.99">
+                <GeometryDrawing Brush="#FFFF5A00">
+                  <GeometryDrawing.Geometry>
+                    <PathGeometry FillRule="EvenOdd" Figures="M2132,1591.22C2132,1543.08,2092.92,1504,2044.78,1504L1870.34,1504C1822.2,1504,1783.12,1543.08,1783.12,1591.22L1783.12,1765.66C1783.12,1813.8,1822.2,1852.88,1870.34,1852.88L2044.78,1852.88C2092.92,1852.88,2132,1813.8,2132,1765.66L2132,1591.22z" />
+                  </GeometryDrawing.Geometry>
+                </GeometryDrawing>
+              </DrawingGroup>
+              <DrawingGroup Transform="1,0,0,1,-3.4164,0">
+                <DrawingGroup Transform="0.5962,0,0,0.5962,10.3402,806.717">
+                  <GeometryDrawing Brush="#FFFFFFFF">
+                    <GeometryDrawing.Geometry>
+                      <PathGeometry FillRule="EvenOdd" Figures="M3111.49,1379.01C3141.56,1379.01 3165.98,1403.43 3165.98,1433.5 3165.98,1463.57 3141.56,1487.99 3111.49,1487.99 3081.41,1487.99 3057,1463.57 3057,1433.5 3057,1403.43 3081.41,1379.01 3111.49,1379.01z M3111.49,1413.96C3122.27,1413.96 3131.03,1422.71 3131.03,1433.5 3131.03,1444.29 3122.27,1453.04 3111.49,1453.04 3100.7,1453.04 3091.95,1444.29 3091.95,1433.5 3091.95,1422.71 3100.7,1413.96 3111.49,1413.96z" />
+                    </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+                </DrawingGroup>
+                <DrawingGroup Transform="1,0,0,1,-339.278,11.9187">
+                  <GeometryDrawing>
+                    <GeometryDrawing.Pen>
+                      <Pen Brush="#FFFFFFFF" Thickness="33.33" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                    <GeometryDrawing.Geometry>
+                      <PathGeometry FillRule="EvenOdd" Figures="M2233.3,1649.51C2233.3,1649.51 2268,1646.74 2268,1616.72 2268,1586.7 2270.13,1570.91 2309.25,1571.28" />
+                    </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+                </DrawingGroup>
+                <DrawingGroup Transform="1,0,0,-1,-339.278,3310.94">
+                  <GeometryDrawing>
+                    <GeometryDrawing.Pen>
+                      <Pen Brush="#FFFFFFFF" Thickness="33.33" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                    <GeometryDrawing.Geometry>
+                      <PathGeometry FillRule="EvenOdd" Figures="M2233.3,1649.51C2233.3,1649.51 2268,1646.74 2268,1616.72 2268,1586.7 2270.13,1570.91 2309.25,1571.28" />
+                    </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+                </DrawingGroup>
+                <DrawingGroup Transform="1,0,0,1,-317.278,12.4685">
+                  <GeometryDrawing>
+                    <GeometryDrawing.Pen>
+                      <Pen Brush="#FFFFFFFF" Thickness="33.33" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                    <GeometryDrawing.Geometry>
+                      <PathGeometry FillRule="EvenOdd" Figures="M2182.82,1616.47L2182.82,1570.72" />
+                    </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+                </DrawingGroup>
+                <DrawingGroup Transform="1,0,0,1,-317.278,12.4685">
+                  <GeometryDrawing>
+                    <GeometryDrawing.Pen>
+                      <Pen Brush="#FFFFFFFF" Thickness="33.33" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                    <GeometryDrawing.Geometry>
+                      <PathGeometry FillRule="EvenOdd" Figures="M2182.82,1677.45L2182.82,1727.2" />
+                    </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+                </DrawingGroup>
+              </DrawingGroup>
+              <DrawingGroup Transform="1,0,0,1,-4.0556,0">
+                <DrawingGroup Transform="0.5962,0,0,0.5962,10.3402,806.717">
+                  <GeometryDrawing Brush="#FFFFFFFF">
+                    <GeometryDrawing.Geometry>
+                      <PathGeometry FillRule="EvenOdd" Figures="M3111.49,1379.01C3141.56,1379.01 3165.98,1403.43 3165.98,1433.5 3165.98,1463.57 3141.56,1487.99 3111.49,1487.99 3081.41,1487.99 3057,1463.57 3057,1433.5 3057,1403.43 3081.41,1379.01 3111.49,1379.01z M3111.49,1413.96C3122.27,1413.96 3131.03,1422.71 3131.03,1433.5 3131.03,1444.29 3122.27,1453.04 3111.49,1453.04 3100.7,1453.04 3091.95,1444.29 3091.95,1433.5 3091.95,1422.71 3100.7,1413.96 3111.49,1413.96z" />
+                    </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+                </DrawingGroup>
+                <DrawingGroup Transform="1,0,0,1,-339.278,11.9187">
+                  <GeometryDrawing Brush="#FFFFFFFF">
+                    <GeometryDrawing.Geometry>
+                      <PathGeometry FillRule="EvenOdd" Figures="M2234.63,1666.12C2234.63,1666.12 2284.67,1660.93 2284.67,1616.72 2284.67,1610.33 2284.73,1604.67 2285.38,1599.76 2285.83,1596.28 2286.05,1593.26 2288.33,1591.41 2292.28,1588.22 2298.87,1587.85 2309.1,1587.94 2318.29,1588.03 2325.83,1580.63 2325.92,1571.43 2326,1562.24 2318.61,1554.7 2309.41,1554.61 2288.31,1554.41 2275.48,1558.92 2267.34,1565.52 2255.03,1575.5 2251.33,1592.25 2251.33,1616.72 2251.33,1623.74 2247.11,1627.46 2243.05,1629.54 2237.5,1632.38 2231.98,1632.9 2231.98,1632.9 2222.81,1633.63 2215.96,1641.67 2216.69,1650.84 2217.42,1660.01 2225.46,1666.86 2234.63,1666.12z" />
+                    </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+                </DrawingGroup>
+                <DrawingGroup Transform="1,0,0,-1,-339.278,3310.94">
+                  <GeometryDrawing Brush="#FFFFFFFF">
+                    <GeometryDrawing.Geometry>
+                      <PathGeometry FillRule="EvenOdd" Figures="M2231.98,1632.9C2231.98,1632.9 2237.5,1632.38 2243.05,1629.54 2247.11,1627.46 2251.33,1623.74 2251.33,1616.72 2251.33,1592.25 2255.03,1575.5 2267.34,1565.52 2275.48,1558.92 2288.31,1554.41 2309.41,1554.61 2318.61,1554.7 2326,1562.24 2325.92,1571.43 2325.83,1580.63 2318.29,1588.03 2309.1,1587.94 2298.87,1587.85 2292.28,1588.22 2288.33,1591.41 2286.05,1593.26 2285.83,1596.28 2285.38,1599.76 2284.73,1604.67 2284.67,1610.33 2284.67,1616.72 2284.67,1660.93 2234.63,1666.12 2234.63,1666.12 2225.46,1666.86 2217.42,1660.01 2216.69,1650.84 2215.96,1641.67 2222.81,1633.63 2231.98,1632.9L2231.98,1632.9z" />
+                    </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+                </DrawingGroup>
+                <DrawingGroup Transform="1,0,0,1,-317.278,12.4685">
+                  <GeometryDrawing Brush="#FFFFFFFF">
+                    <GeometryDrawing.Geometry>
+                      <PathGeometry FillRule="EvenOdd" Figures="M2199.48,1616.47L2199.48,1570.72C2199.48,1561.52 2192.01,1554.06 2182.82,1554.06 2173.62,1554.06 2166.15,1561.52 2166.15,1570.72L2166.15,1616.47C2166.15,1625.67 2173.62,1633.14 2182.82,1633.14 2192.01,1633.14 2199.48,1625.67 2199.48,1616.47z" />
+                    </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+                </DrawingGroup>
+                <DrawingGroup Transform="1,0,0,1,-317.278,12.4685">
+                  <GeometryDrawing Brush="#FFFFFFFF">
+                    <GeometryDrawing.Geometry>
+                      <PathGeometry FillRule="EvenOdd" Figures="M2166.15,1677.45L2166.15,1727.2C2166.15,1736.4 2173.62,1743.87 2182.82,1743.87 2192.01,1743.87 2199.48,1736.4 2199.48,1727.2L2199.48,1677.45C2199.48,1668.25 2192.01,1660.78 2182.82,1660.78 2173.62,1660.78 2166.15,1668.25 2166.15,1677.45z" />
+                    </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+                </DrawingGroup>
+              </DrawingGroup>
+            </DrawingGroup>
+          </DrawingGroup>
+        </DrawingGroup>
+      </DrawingGroup>
+    </DrawingGroup>
+    <DrawingBrush x:Key="ClaimTaskIcon" Drawing="{StaticResource kuflowIcond8eae0e8e3e14c8f9f4d4d2809fc8b3a_0}" />
+    <DrawingBrush x:Key="SaveElementIcon" Drawing="{StaticResource kuflowIcond8eae0e8e3e14c8f9f4d4d2809fc8b3a_0}" />
+
+    <!--SaveElementDocument Icon-->
+    <DrawingGroup x:Key="kuflowIcon75335bd1bb244344b6c70e0432b6d7a0_0">
+      <DrawingGroup.ClipGeometry>
+        <RectangleGeometry Rect="0,0,417,417" />
+      </DrawingGroup.ClipGeometry>
+      <DrawingGroup Transform="1,0,0,1,-5465,-4865">
+        <DrawingGroup x:Name="kuflowIcon75335bd1bb244344b6c70e0432b6d7a0_1" Transform="1,0,0,1,5301.79,4064.36">
+          <DrawingGroup>
+            <DrawingGroup Transform="1.5071,0,0,1.5071,-2500.11,-1495.33">
+              <DrawingGroup Transform="0,-0.789,0.789,0,581.456,3205.99">
+                <GeometryDrawing Brush="#FFFF5A00">
+                  <GeometryDrawing.Geometry>
+                    <PathGeometry FillRule="EvenOdd" Figures="M2132,1591.22C2132,1543.08,2092.92,1504,2044.78,1504L1870.34,1504C1822.2,1504,1783.12,1543.08,1783.12,1591.22L1783.12,1765.66C1783.12,1813.8,1822.2,1852.88,1870.34,1852.88L2044.78,1852.88C2092.92,1852.88,2132,1813.8,2132,1765.66L2132,1591.22z" />
+                  </GeometryDrawing.Geometry>
+                </GeometryDrawing>
+              </DrawingGroup>
+              <DrawingGroup Transform="1,0,0,1,-3.4164,0">
+                <DrawingGroup Transform="0.5962,0,0,0.5962,10.3402,806.717">
+                  <GeometryDrawing Brush="#FFFFFFFF">
+                    <GeometryDrawing.Geometry>
+                      <PathGeometry FillRule="EvenOdd" Figures="M3111.49,1379.01C3141.56,1379.01 3165.98,1403.43 3165.98,1433.5 3165.98,1463.57 3141.56,1487.99 3111.49,1487.99 3081.41,1487.99 3057,1463.57 3057,1433.5 3057,1403.43 3081.41,1379.01 3111.49,1379.01z M3111.49,1413.96C3122.27,1413.96 3131.03,1422.71 3131.03,1433.5 3131.03,1444.29 3122.27,1453.04 3111.49,1453.04 3100.7,1453.04 3091.95,1444.29 3091.95,1433.5 3091.95,1422.71 3100.7,1413.96 3111.49,1413.96z" />
+                    </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+                </DrawingGroup>
+                <DrawingGroup Transform="1,0,0,1,-339.278,11.9187">
+                  <GeometryDrawing>
+                    <GeometryDrawing.Pen>
+                      <Pen Brush="#FFFFFFFF" Thickness="33.33" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                    <GeometryDrawing.Geometry>
+                      <PathGeometry FillRule="EvenOdd" Figures="M2233.3,1649.51C2233.3,1649.51 2268,1646.74 2268,1616.72 2268,1586.7 2270.13,1570.91 2309.25,1571.28" />
+                    </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+                </DrawingGroup>
+                <DrawingGroup Transform="1,0,0,-1,-339.278,3310.94">
+                  <GeometryDrawing>
+                    <GeometryDrawing.Pen>
+                      <Pen Brush="#FFFFFFFF" Thickness="33.33" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                    <GeometryDrawing.Geometry>
+                      <PathGeometry FillRule="EvenOdd" Figures="M2233.3,1649.51C2233.3,1649.51 2268,1646.74 2268,1616.72 2268,1586.7 2270.13,1570.91 2309.25,1571.28" />
+                    </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+                </DrawingGroup>
+                <DrawingGroup Transform="1,0,0,1,-317.278,12.4685">
+                  <GeometryDrawing>
+                    <GeometryDrawing.Pen>
+                      <Pen Brush="#FFFFFFFF" Thickness="33.33" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                    <GeometryDrawing.Geometry>
+                      <PathGeometry FillRule="EvenOdd" Figures="M2182.82,1616.47L2182.82,1570.72" />
+                    </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+                </DrawingGroup>
+                <DrawingGroup Transform="1,0,0,1,-317.278,12.4685">
+                  <GeometryDrawing>
+                    <GeometryDrawing.Pen>
+                      <Pen Brush="#FFFFFFFF" Thickness="33.33" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                    <GeometryDrawing.Geometry>
+                      <PathGeometry FillRule="EvenOdd" Figures="M2182.82,1677.45L2182.82,1727.2" />
+                    </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+                </DrawingGroup>
+              </DrawingGroup>
+              <DrawingGroup Transform="1,0,0,1,-4.0556,0">
+                <DrawingGroup Transform="0.5962,0,0,0.5962,10.3402,806.717">
+                  <GeometryDrawing Brush="#FFFFFFFF">
+                    <GeometryDrawing.Geometry>
+                      <PathGeometry FillRule="EvenOdd" Figures="M3111.49,1379.01C3141.56,1379.01 3165.98,1403.43 3165.98,1433.5 3165.98,1463.57 3141.56,1487.99 3111.49,1487.99 3081.41,1487.99 3057,1463.57 3057,1433.5 3057,1403.43 3081.41,1379.01 3111.49,1379.01z M3111.49,1413.96C3122.27,1413.96 3131.03,1422.71 3131.03,1433.5 3131.03,1444.29 3122.27,1453.04 3111.49,1453.04 3100.7,1453.04 3091.95,1444.29 3091.95,1433.5 3091.95,1422.71 3100.7,1413.96 3111.49,1413.96z" />
+                    </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+                </DrawingGroup>
+                <DrawingGroup Transform="1,0,0,1,-339.278,11.9187">
+                  <GeometryDrawing Brush="#FFFFFFFF">
+                    <GeometryDrawing.Geometry>
+                      <PathGeometry FillRule="EvenOdd" Figures="M2234.63,1666.12C2234.63,1666.12 2284.67,1660.93 2284.67,1616.72 2284.67,1610.33 2284.73,1604.67 2285.38,1599.76 2285.83,1596.28 2286.05,1593.26 2288.33,1591.41 2292.28,1588.22 2298.87,1587.85 2309.1,1587.94 2318.29,1588.03 2325.83,1580.63 2325.92,1571.43 2326,1562.24 2318.61,1554.7 2309.41,1554.61 2288.31,1554.41 2275.48,1558.92 2267.34,1565.52 2255.03,1575.5 2251.33,1592.25 2251.33,1616.72 2251.33,1623.74 2247.11,1627.46 2243.05,1629.54 2237.5,1632.38 2231.98,1632.9 2231.98,1632.9 2222.81,1633.63 2215.96,1641.67 2216.69,1650.84 2217.42,1660.01 2225.46,1666.86 2234.63,1666.12z" />
+                    </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+                </DrawingGroup>
+                <DrawingGroup Transform="1,0,0,-1,-339.278,3310.94">
+                  <GeometryDrawing Brush="#FFFFFFFF">
+                    <GeometryDrawing.Geometry>
+                      <PathGeometry FillRule="EvenOdd" Figures="M2231.98,1632.9C2231.98,1632.9 2237.5,1632.38 2243.05,1629.54 2247.11,1627.46 2251.33,1623.74 2251.33,1616.72 2251.33,1592.25 2255.03,1575.5 2267.34,1565.52 2275.48,1558.92 2288.31,1554.41 2309.41,1554.61 2318.61,1554.7 2326,1562.24 2325.92,1571.43 2325.83,1580.63 2318.29,1588.03 2309.1,1587.94 2298.87,1587.85 2292.28,1588.22 2288.33,1591.41 2286.05,1593.26 2285.83,1596.28 2285.38,1599.76 2284.73,1604.67 2284.67,1610.33 2284.67,1616.72 2284.67,1660.93 2234.63,1666.12 2234.63,1666.12 2225.46,1666.86 2217.42,1660.01 2216.69,1650.84 2215.96,1641.67 2222.81,1633.63 2231.98,1632.9L2231.98,1632.9z" />
+                    </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+                </DrawingGroup>
+                <DrawingGroup Transform="1,0,0,1,-317.278,12.4685">
+                  <GeometryDrawing Brush="#FFFFFFFF">
+                    <GeometryDrawing.Geometry>
+                      <PathGeometry FillRule="EvenOdd" Figures="M2199.48,1616.47L2199.48,1570.72C2199.48,1561.52 2192.01,1554.06 2182.82,1554.06 2173.62,1554.06 2166.15,1561.52 2166.15,1570.72L2166.15,1616.47C2166.15,1625.67 2173.62,1633.14 2182.82,1633.14 2192.01,1633.14 2199.48,1625.67 2199.48,1616.47z" />
+                    </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+                </DrawingGroup>
+                <DrawingGroup Transform="1,0,0,1,-317.278,12.4685">
+                  <GeometryDrawing Brush="#FFFFFFFF">
+                    <GeometryDrawing.Geometry>
+                      <PathGeometry FillRule="EvenOdd" Figures="M2166.15,1677.45L2166.15,1727.2C2166.15,1736.4 2173.62,1743.87 2182.82,1743.87 2192.01,1743.87 2199.48,1736.4 2199.48,1727.2L2199.48,1677.45C2199.48,1668.25 2192.01,1660.78 2182.82,1660.78 2173.62,1660.78 2166.15,1668.25 2166.15,1677.45z" />
+                    </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+                </DrawingGroup>
+              </DrawingGroup>
+            </DrawingGroup>
+          </DrawingGroup>
+        </DrawingGroup>
+      </DrawingGroup>
+    </DrawingGroup>
+    <DrawingBrush x:Key="SaveElementDocumentIcon" Drawing="{StaticResource kuflowIcon75335bd1bb244344b6c70e0432b6d7a0_0}" />
+
+    <!--DeleteElement Icon-->
+    <DrawingGroup x:Key="kuflowIconbd048cd366864cc3a4d910c86752ccf2_0">
+      <DrawingGroup.ClipGeometry>
+        <RectangleGeometry Rect="0,0,417,417" />
+      </DrawingGroup.ClipGeometry>
+      <DrawingGroup Transform="1,0,0,1,-5465,-4865">
+        <DrawingGroup x:Name="kuflowIconbd048cd366864cc3a4d910c86752ccf2_1" Transform="1,0,0,1,5301.79,4064.36">
+          <DrawingGroup>
+            <DrawingGroup Transform="1.5071,0,0,1.5071,-2500.11,-1495.33">
+              <DrawingGroup Transform="0,-0.789,0.789,0,581.456,3205.99">
+                <GeometryDrawing Brush="#FFFF5A00">
+                  <GeometryDrawing.Geometry>
+                    <PathGeometry FillRule="EvenOdd" Figures="M2132,1591.22C2132,1543.08,2092.92,1504,2044.78,1504L1870.34,1504C1822.2,1504,1783.12,1543.08,1783.12,1591.22L1783.12,1765.66C1783.12,1813.8,1822.2,1852.88,1870.34,1852.88L2044.78,1852.88C2092.92,1852.88,2132,1813.8,2132,1765.66L2132,1591.22z" />
+                  </GeometryDrawing.Geometry>
+                </GeometryDrawing>
+              </DrawingGroup>
+              <DrawingGroup Transform="1,0,0,1,-3.4164,0">
+                <DrawingGroup Transform="0.5962,0,0,0.5962,10.3402,806.717">
+                  <GeometryDrawing Brush="#FFFFFFFF">
+                    <GeometryDrawing.Geometry>
+                      <PathGeometry FillRule="EvenOdd" Figures="M3111.49,1379.01C3141.56,1379.01 3165.98,1403.43 3165.98,1433.5 3165.98,1463.57 3141.56,1487.99 3111.49,1487.99 3081.41,1487.99 3057,1463.57 3057,1433.5 3057,1403.43 3081.41,1379.01 3111.49,1379.01z M3111.49,1413.96C3122.27,1413.96 3131.03,1422.71 3131.03,1433.5 3131.03,1444.29 3122.27,1453.04 3111.49,1453.04 3100.7,1453.04 3091.95,1444.29 3091.95,1433.5 3091.95,1422.71 3100.7,1413.96 3111.49,1413.96z" />
+                    </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+                </DrawingGroup>
+                <DrawingGroup Transform="1,0,0,1,-339.278,11.9187">
+                  <GeometryDrawing>
+                    <GeometryDrawing.Pen>
+                      <Pen Brush="#FFFFFFFF" Thickness="33.33" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                    <GeometryDrawing.Geometry>
+                      <PathGeometry FillRule="EvenOdd" Figures="M2233.3,1649.51C2233.3,1649.51 2268,1646.74 2268,1616.72 2268,1586.7 2270.13,1570.91 2309.25,1571.28" />
+                    </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+                </DrawingGroup>
+                <DrawingGroup Transform="1,0,0,-1,-339.278,3310.94">
+                  <GeometryDrawing>
+                    <GeometryDrawing.Pen>
+                      <Pen Brush="#FFFFFFFF" Thickness="33.33" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                    <GeometryDrawing.Geometry>
+                      <PathGeometry FillRule="EvenOdd" Figures="M2233.3,1649.51C2233.3,1649.51 2268,1646.74 2268,1616.72 2268,1586.7 2270.13,1570.91 2309.25,1571.28" />
+                    </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+                </DrawingGroup>
+                <DrawingGroup Transform="1,0,0,1,-317.278,12.4685">
+                  <GeometryDrawing>
+                    <GeometryDrawing.Pen>
+                      <Pen Brush="#FFFFFFFF" Thickness="33.33" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                    <GeometryDrawing.Geometry>
+                      <PathGeometry FillRule="EvenOdd" Figures="M2182.82,1616.47L2182.82,1570.72" />
+                    </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+                </DrawingGroup>
+                <DrawingGroup Transform="1,0,0,1,-317.278,12.4685">
+                  <GeometryDrawing>
+                    <GeometryDrawing.Pen>
+                      <Pen Brush="#FFFFFFFF" Thickness="33.33" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                    <GeometryDrawing.Geometry>
+                      <PathGeometry FillRule="EvenOdd" Figures="M2182.82,1677.45L2182.82,1727.2" />
+                    </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+                </DrawingGroup>
+              </DrawingGroup>
+              <DrawingGroup Transform="1,0,0,1,-4.0556,0">
+                <DrawingGroup Transform="0.5962,0,0,0.5962,10.3402,806.717">
+                  <GeometryDrawing Brush="#FFFFFFFF">
+                    <GeometryDrawing.Geometry>
+                      <PathGeometry FillRule="EvenOdd" Figures="M3111.49,1379.01C3141.56,1379.01 3165.98,1403.43 3165.98,1433.5 3165.98,1463.57 3141.56,1487.99 3111.49,1487.99 3081.41,1487.99 3057,1463.57 3057,1433.5 3057,1403.43 3081.41,1379.01 3111.49,1379.01z M3111.49,1413.96C3122.27,1413.96 3131.03,1422.71 3131.03,1433.5 3131.03,1444.29 3122.27,1453.04 3111.49,1453.04 3100.7,1453.04 3091.95,1444.29 3091.95,1433.5 3091.95,1422.71 3100.7,1413.96 3111.49,1413.96z" />
+                    </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+                </DrawingGroup>
+                <DrawingGroup Transform="1,0,0,1,-339.278,11.9187">
+                  <GeometryDrawing Brush="#FFFFFFFF">
+                    <GeometryDrawing.Geometry>
+                      <PathGeometry FillRule="EvenOdd" Figures="M2234.63,1666.12C2234.63,1666.12 2284.67,1660.93 2284.67,1616.72 2284.67,1610.33 2284.73,1604.67 2285.38,1599.76 2285.83,1596.28 2286.05,1593.26 2288.33,1591.41 2292.28,1588.22 2298.87,1587.85 2309.1,1587.94 2318.29,1588.03 2325.83,1580.63 2325.92,1571.43 2326,1562.24 2318.61,1554.7 2309.41,1554.61 2288.31,1554.41 2275.48,1558.92 2267.34,1565.52 2255.03,1575.5 2251.33,1592.25 2251.33,1616.72 2251.33,1623.74 2247.11,1627.46 2243.05,1629.54 2237.5,1632.38 2231.98,1632.9 2231.98,1632.9 2222.81,1633.63 2215.96,1641.67 2216.69,1650.84 2217.42,1660.01 2225.46,1666.86 2234.63,1666.12z" />
+                    </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+                </DrawingGroup>
+                <DrawingGroup Transform="1,0,0,-1,-339.278,3310.94">
+                  <GeometryDrawing Brush="#FFFFFFFF">
+                    <GeometryDrawing.Geometry>
+                      <PathGeometry FillRule="EvenOdd" Figures="M2231.98,1632.9C2231.98,1632.9 2237.5,1632.38 2243.05,1629.54 2247.11,1627.46 2251.33,1623.74 2251.33,1616.72 2251.33,1592.25 2255.03,1575.5 2267.34,1565.52 2275.48,1558.92 2288.31,1554.41 2309.41,1554.61 2318.61,1554.7 2326,1562.24 2325.92,1571.43 2325.83,1580.63 2318.29,1588.03 2309.1,1587.94 2298.87,1587.85 2292.28,1588.22 2288.33,1591.41 2286.05,1593.26 2285.83,1596.28 2285.38,1599.76 2284.73,1604.67 2284.67,1610.33 2284.67,1616.72 2284.67,1660.93 2234.63,1666.12 2234.63,1666.12 2225.46,1666.86 2217.42,1660.01 2216.69,1650.84 2215.96,1641.67 2222.81,1633.63 2231.98,1632.9L2231.98,1632.9z" />
+                    </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+                </DrawingGroup>
+                <DrawingGroup Transform="1,0,0,1,-317.278,12.4685">
+                  <GeometryDrawing Brush="#FFFFFFFF">
+                    <GeometryDrawing.Geometry>
+                      <PathGeometry FillRule="EvenOdd" Figures="M2199.48,1616.47L2199.48,1570.72C2199.48,1561.52 2192.01,1554.06 2182.82,1554.06 2173.62,1554.06 2166.15,1561.52 2166.15,1570.72L2166.15,1616.47C2166.15,1625.67 2173.62,1633.14 2182.82,1633.14 2192.01,1633.14 2199.48,1625.67 2199.48,1616.47z" />
+                    </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+                </DrawingGroup>
+                <DrawingGroup Transform="1,0,0,1,-317.278,12.4685">
+                  <GeometryDrawing Brush="#FFFFFFFF">
+                    <GeometryDrawing.Geometry>
+                      <PathGeometry FillRule="EvenOdd" Figures="M2166.15,1677.45L2166.15,1727.2C2166.15,1736.4 2173.62,1743.87 2182.82,1743.87 2192.01,1743.87 2199.48,1736.4 2199.48,1727.2L2199.48,1677.45C2199.48,1668.25 2192.01,1660.78 2182.82,1660.78 2173.62,1660.78 2166.15,1668.25 2166.15,1677.45z" />
+                    </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+                </DrawingGroup>
+              </DrawingGroup>
+            </DrawingGroup>
+          </DrawingGroup>
+        </DrawingGroup>
+      </DrawingGroup>
+    </DrawingGroup>
+    <DrawingBrush x:Key="DeleteElementIcon" Drawing="{StaticResource kuflowIconbd048cd366864cc3a4d910c86752ccf2_0}" />
+
+    <!--DeleteElementDocument Icon-->
+    <DrawingGroup x:Key="kuflowIcondbdc8e76075b410384f82fe13e969b8c_0">
+      <DrawingGroup.ClipGeometry>
+        <RectangleGeometry Rect="0,0,417,417" />
+      </DrawingGroup.ClipGeometry>
+      <DrawingGroup Transform="1,0,0,1,-5465,-4865">
+        <DrawingGroup x:Name="kuflowIcondbdc8e76075b410384f82fe13e969b8c_1" Transform="1,0,0,1,5301.79,4064.36">
+          <DrawingGroup>
+            <DrawingGroup Transform="1.5071,0,0,1.5071,-2500.11,-1495.33">
+              <DrawingGroup Transform="0,-0.789,0.789,0,581.456,3205.99">
+                <GeometryDrawing Brush="#FFFF5A00">
+                  <GeometryDrawing.Geometry>
+                    <PathGeometry FillRule="EvenOdd" Figures="M2132,1591.22C2132,1543.08,2092.92,1504,2044.78,1504L1870.34,1504C1822.2,1504,1783.12,1543.08,1783.12,1591.22L1783.12,1765.66C1783.12,1813.8,1822.2,1852.88,1870.34,1852.88L2044.78,1852.88C2092.92,1852.88,2132,1813.8,2132,1765.66L2132,1591.22z" />
+                  </GeometryDrawing.Geometry>
+                </GeometryDrawing>
+              </DrawingGroup>
+              <DrawingGroup Transform="1,0,0,1,-3.4164,0">
+                <DrawingGroup Transform="0.5962,0,0,0.5962,10.3402,806.717">
+                  <GeometryDrawing Brush="#FFFFFFFF">
+                    <GeometryDrawing.Geometry>
+                      <PathGeometry FillRule="EvenOdd" Figures="M3111.49,1379.01C3141.56,1379.01 3165.98,1403.43 3165.98,1433.5 3165.98,1463.57 3141.56,1487.99 3111.49,1487.99 3081.41,1487.99 3057,1463.57 3057,1433.5 3057,1403.43 3081.41,1379.01 3111.49,1379.01z M3111.49,1413.96C3122.27,1413.96 3131.03,1422.71 3131.03,1433.5 3131.03,1444.29 3122.27,1453.04 3111.49,1453.04 3100.7,1453.04 3091.95,1444.29 3091.95,1433.5 3091.95,1422.71 3100.7,1413.96 3111.49,1413.96z" />
+                    </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+                </DrawingGroup>
+                <DrawingGroup Transform="1,0,0,1,-339.278,11.9187">
+                  <GeometryDrawing>
+                    <GeometryDrawing.Pen>
+                      <Pen Brush="#FFFFFFFF" Thickness="33.33" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                    <GeometryDrawing.Geometry>
+                      <PathGeometry FillRule="EvenOdd" Figures="M2233.3,1649.51C2233.3,1649.51 2268,1646.74 2268,1616.72 2268,1586.7 2270.13,1570.91 2309.25,1571.28" />
+                    </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+                </DrawingGroup>
+                <DrawingGroup Transform="1,0,0,-1,-339.278,3310.94">
+                  <GeometryDrawing>
+                    <GeometryDrawing.Pen>
+                      <Pen Brush="#FFFFFFFF" Thickness="33.33" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                    <GeometryDrawing.Geometry>
+                      <PathGeometry FillRule="EvenOdd" Figures="M2233.3,1649.51C2233.3,1649.51 2268,1646.74 2268,1616.72 2268,1586.7 2270.13,1570.91 2309.25,1571.28" />
+                    </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+                </DrawingGroup>
+                <DrawingGroup Transform="1,0,0,1,-317.278,12.4685">
+                  <GeometryDrawing>
+                    <GeometryDrawing.Pen>
+                      <Pen Brush="#FFFFFFFF" Thickness="33.33" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                    <GeometryDrawing.Geometry>
+                      <PathGeometry FillRule="EvenOdd" Figures="M2182.82,1616.47L2182.82,1570.72" />
+                    </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+                </DrawingGroup>
+                <DrawingGroup Transform="1,0,0,1,-317.278,12.4685">
+                  <GeometryDrawing>
+                    <GeometryDrawing.Pen>
+                      <Pen Brush="#FFFFFFFF" Thickness="33.33" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                    <GeometryDrawing.Geometry>
+                      <PathGeometry FillRule="EvenOdd" Figures="M2182.82,1677.45L2182.82,1727.2" />
+                    </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+                </DrawingGroup>
+              </DrawingGroup>
+              <DrawingGroup Transform="1,0,0,1,-4.0556,0">
+                <DrawingGroup Transform="0.5962,0,0,0.5962,10.3402,806.717">
+                  <GeometryDrawing Brush="#FFFFFFFF">
+                    <GeometryDrawing.Geometry>
+                      <PathGeometry FillRule="EvenOdd" Figures="M3111.49,1379.01C3141.56,1379.01 3165.98,1403.43 3165.98,1433.5 3165.98,1463.57 3141.56,1487.99 3111.49,1487.99 3081.41,1487.99 3057,1463.57 3057,1433.5 3057,1403.43 3081.41,1379.01 3111.49,1379.01z M3111.49,1413.96C3122.27,1413.96 3131.03,1422.71 3131.03,1433.5 3131.03,1444.29 3122.27,1453.04 3111.49,1453.04 3100.7,1453.04 3091.95,1444.29 3091.95,1433.5 3091.95,1422.71 3100.7,1413.96 3111.49,1413.96z" />
+                    </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+                </DrawingGroup>
+                <DrawingGroup Transform="1,0,0,1,-339.278,11.9187">
+                  <GeometryDrawing Brush="#FFFFFFFF">
+                    <GeometryDrawing.Geometry>
+                      <PathGeometry FillRule="EvenOdd" Figures="M2234.63,1666.12C2234.63,1666.12 2284.67,1660.93 2284.67,1616.72 2284.67,1610.33 2284.73,1604.67 2285.38,1599.76 2285.83,1596.28 2286.05,1593.26 2288.33,1591.41 2292.28,1588.22 2298.87,1587.85 2309.1,1587.94 2318.29,1588.03 2325.83,1580.63 2325.92,1571.43 2326,1562.24 2318.61,1554.7 2309.41,1554.61 2288.31,1554.41 2275.48,1558.92 2267.34,1565.52 2255.03,1575.5 2251.33,1592.25 2251.33,1616.72 2251.33,1623.74 2247.11,1627.46 2243.05,1629.54 2237.5,1632.38 2231.98,1632.9 2231.98,1632.9 2222.81,1633.63 2215.96,1641.67 2216.69,1650.84 2217.42,1660.01 2225.46,1666.86 2234.63,1666.12z" />
+                    </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+                </DrawingGroup>
+                <DrawingGroup Transform="1,0,0,-1,-339.278,3310.94">
+                  <GeometryDrawing Brush="#FFFFFFFF">
+                    <GeometryDrawing.Geometry>
+                      <PathGeometry FillRule="EvenOdd" Figures="M2231.98,1632.9C2231.98,1632.9 2237.5,1632.38 2243.05,1629.54 2247.11,1627.46 2251.33,1623.74 2251.33,1616.72 2251.33,1592.25 2255.03,1575.5 2267.34,1565.52 2275.48,1558.92 2288.31,1554.41 2309.41,1554.61 2318.61,1554.7 2326,1562.24 2325.92,1571.43 2325.83,1580.63 2318.29,1588.03 2309.1,1587.94 2298.87,1587.85 2292.28,1588.22 2288.33,1591.41 2286.05,1593.26 2285.83,1596.28 2285.38,1599.76 2284.73,1604.67 2284.67,1610.33 2284.67,1616.72 2284.67,1660.93 2234.63,1666.12 2234.63,1666.12 2225.46,1666.86 2217.42,1660.01 2216.69,1650.84 2215.96,1641.67 2222.81,1633.63 2231.98,1632.9L2231.98,1632.9z" />
+                    </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+                </DrawingGroup>
+                <DrawingGroup Transform="1,0,0,1,-317.278,12.4685">
+                  <GeometryDrawing Brush="#FFFFFFFF">
+                    <GeometryDrawing.Geometry>
+                      <PathGeometry FillRule="EvenOdd" Figures="M2199.48,1616.47L2199.48,1570.72C2199.48,1561.52 2192.01,1554.06 2182.82,1554.06 2173.62,1554.06 2166.15,1561.52 2166.15,1570.72L2166.15,1616.47C2166.15,1625.67 2173.62,1633.14 2182.82,1633.14 2192.01,1633.14 2199.48,1625.67 2199.48,1616.47z" />
+                    </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+                </DrawingGroup>
+                <DrawingGroup Transform="1,0,0,1,-317.278,12.4685">
+                  <GeometryDrawing Brush="#FFFFFFFF">
+                    <GeometryDrawing.Geometry>
+                      <PathGeometry FillRule="EvenOdd" Figures="M2166.15,1677.45L2166.15,1727.2C2166.15,1736.4 2173.62,1743.87 2182.82,1743.87 2192.01,1743.87 2199.48,1736.4 2199.48,1727.2L2199.48,1677.45C2199.48,1668.25 2192.01,1660.78 2182.82,1660.78 2173.62,1660.78 2166.15,1668.25 2166.15,1677.45z" />
+                    </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+                </DrawingGroup>
+              </DrawingGroup>
+            </DrawingGroup>
+          </DrawingGroup>
+        </DrawingGroup>
+      </DrawingGroup>
+    </DrawingGroup>
+    <DrawingBrush x:Key="DeleteElementDocumentIcon" Drawing="{StaticResource kuflowIcondbdc8e76075b410384f82fe13e969b8c_0}" />
+
+
 </ResourceDictionary>

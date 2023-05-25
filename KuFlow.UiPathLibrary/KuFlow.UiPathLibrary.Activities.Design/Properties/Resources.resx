@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Category" xml:space="preserve">
-    <value>KuFlow.UiPathLibrary</value>
+    <value>KuFlow.Rest</value>
     <comment>category</comment>
   </data>
   <data name="Collection" xml:space="preserve">
@@ -140,5 +140,9 @@
   <data name="Editing" xml:space="preserve">
     <value>Editing</value>
     <comment>label</comment>
+  </data>
+  <data name="ScopeCategory" xml:space="preserve">
+    <value>KuFlow.Auth</value>
+    <comment>auth</comment>
   </data>
 </root>
