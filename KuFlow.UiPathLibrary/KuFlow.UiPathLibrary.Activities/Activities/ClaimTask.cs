@@ -31,7 +31,7 @@ namespace KuFlow.UiPathLibrary.Activities
 
         [LocalizedDisplayName(nameof(Resources.ClaimTask_Task_DisplayName))]
         [LocalizedDescription(nameof(Resources.ClaimTask_Task_Description))]
-        [LocalizedCategory(nameof(Resources.Input_Category))]
+        [LocalizedCategory(nameof(Resources.Output_Category))]
         public OutArgument<Rest.Models.Task> Task { get; set; }
 
         #endregion
