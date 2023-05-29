@@ -35,4 +35,4 @@ We are happy to receive your help and comments, together we will dance a wonderf
 
 ## License
 
-[MIT License](https://github.com/kuflow/kuflow-sdk-dotnet/blob/master/LICENSE)
+[MIT License](https://github.com/kuflow/kuflow-uipath-activities/blob/main/LICENSE.txt)
