@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFrameworks>net6.0</TargetFrameworks>
 		<RootNamespace>KuFlow.UiPathLibrary.Activities</RootNamespace>
@@ -10,7 +10,7 @@
     <DocumentationFile>bin\$(Configuration)\KuFlow.UiPathLibrary.Activities.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="KuFlow.Rest" Version="0.1.0.519113717" />
+    <PackageReference Include="KuFlow.Rest" Version="1.0.0" />
     <PackageReference Include="System.Activities.Metadata" Version="6.0.0-*" PrivateAssets="All" />
     <PackageReference Include="UiPath.Workflow.Runtime" Version="6.0.0-20220909-01" PrivateAssets="All" />
   </ItemGroup>

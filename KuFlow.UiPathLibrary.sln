@@ -5,11 +5,11 @@ VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "KuFlow.UiPathLibrary", "KuFlow.UiPathLibrary", "{A6C1FC6B-3997-4181-A697-9B4EA0D50CEF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KuFlow.UiPathLibrary", "KuFlow.UiPathLibrary\KuFlow.UiPathLibrary\KuFlow.UiPathLibrary.csproj", "{74EDE86E-65E6-4EC5-8170-22C28AB05E24}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KuFlow.UiPathLibrary", "KuFlow.UiPathLibrary\KuFlow.UiPathLibrary\KuFlow.UiPathLibrary.csproj", "{74EDE86E-65E6-4EC5-8170-22C28AB05E24}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KuFlow.UiPathLibrary.Activities", "KuFlow.UiPathLibrary\KuFlow.UiPathLibrary.Activities\KuFlow.UiPathLibrary.Activities.csproj", "{76C7408B-AA7E-4653-9327-2366C499289A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KuFlow.UiPathLibrary.Activities", "KuFlow.UiPathLibrary\KuFlow.UiPathLibrary.Activities\KuFlow.UiPathLibrary.Activities.csproj", "{76C7408B-AA7E-4653-9327-2366C499289A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KuFlow.UiPathLibrary.Activities.Design", "KuFlow.UiPathLibrary\KuFlow.UiPathLibrary.Activities.Design\KuFlow.UiPathLibrary.Activities.Design.csproj", "{8011CB85-13E4-41B5-A9FC-06A8F7C84662}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KuFlow.UiPathLibrary.Activities.Design", "KuFlow.UiPathLibrary\KuFlow.UiPathLibrary.Activities.Design\KuFlow.UiPathLibrary.Activities.Design.csproj", "{8011CB85-13E4-41B5-A9FC-06A8F7C84662}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{7931E6A3-7103-41E8-964D-1A454641F2B9}"
 EndProject
@@ -23,16 +23,16 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{74EDE86E-65E6-4EC5-8170-22C28AB05E24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{74EDE86E-65E6-4EC5-8170-22C28AB05E24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74EDE86E-65E6-4EC5-8170-22C28AB05E24}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{74EDE86E-65E6-4EC5-8170-22C28AB05E24}.Debug|Any CPU.Build.0 = Release|Any CPU
 		{74EDE86E-65E6-4EC5-8170-22C28AB05E24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74EDE86E-65E6-4EC5-8170-22C28AB05E24}.Release|Any CPU.Build.0 = Release|Any CPU
-		{76C7408B-AA7E-4653-9327-2366C499289A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{76C7408B-AA7E-4653-9327-2366C499289A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76C7408B-AA7E-4653-9327-2366C499289A}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{76C7408B-AA7E-4653-9327-2366C499289A}.Debug|Any CPU.Build.0 = Release|Any CPU
 		{76C7408B-AA7E-4653-9327-2366C499289A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76C7408B-AA7E-4653-9327-2366C499289A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8011CB85-13E4-41B5-A9FC-06A8F7C84662}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8011CB85-13E4-41B5-A9FC-06A8F7C84662}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8011CB85-13E4-41B5-A9FC-06A8F7C84662}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{8011CB85-13E4-41B5-A9FC-06A8F7C84662}.Debug|Any CPU.Build.0 = Release|Any CPU
 		{8011CB85-13E4-41B5-A9FC-06A8F7C84662}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8011CB85-13E4-41B5-A9FC-06A8F7C84662}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
