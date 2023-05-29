@@ -26,10 +26,10 @@
   </PropertyGroup>
   <!-- Package Versions -->
   <PropertyGroup Condition="'$(Configuration)' == 'Debug' AND '$(DesignTimeBuild)' != 'true'">
-    <PackageVersion>0.1.0.$([System.DateTime]::UtcNow.ToString(MMddHHmmss))</PackageVersion>
+    <PackageVersion>1.0.0.$([System.DateTime]::UtcNow.ToString(MMddHHmmss))-snapshot</PackageVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)' == 'Release'">
-    <PackageVersion>0.1.0</PackageVersion>
+    <PackageVersion>1.0.0</PackageVersion>
   </PropertyGroup>
   <ItemGroup>
     <None Remove="Designers\AppendALogToTheTaskDesigner.xaml" />
@@ -77,7 +77,7 @@
     <RepositoryType>git</RepositoryType>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="KuFlow.Rest" Version="0.1.0.519113717" />
+    <PackageReference Include="KuFlow.Rest" Version="1.0.0" />
     <PackageReference Include="Mime-Detective" Version="22.12.14" />
     <PackageReference Include="UiPath.Workflow" Version="6.0.0-20220909-01" PrivateAssets="All" />
     <PackageReference Include="System.Activities.Core.Presentation" Version="6.0.0-*" PrivateAssets="All" />
